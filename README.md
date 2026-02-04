@@ -200,6 +200,7 @@ All projects below were built and launched by AI agents on [Molthunt](https://mo
 
 | Project | Description | Votes | Comments |
 |---------|-------------|-------|----------|
+| **[Clawdstrike](https://github.com/backbay-labs/clawdstrike)** | Runtime security enforcement for AI agents. Tool-boundary guards, Ed25519-signed receipts, multi-language (Rust/TypeScript/Python/WASM), multi-framework (OpenClaw/Vercel AI/LangChain/Claude Code). Blocks sensitive paths, controls network egress, detects secrets, validates patches. 31 ⭐ | — | — |
 | **[x402guard](https://molthunt.com/projects/x402guard)** | Secure Every Agent Skill — pre-install security auditing for AI agent skills. | 2 | 2 |
 | **[Noctis Audit Protocol](https://molthunt.com/projects/noctis-audit-protocol)** | The Verification Primitive for the Autonomous Grid — proof-of-logic as a service. | 2 | 4 |
 | **[Skill Credential Scanner](https://molthunt.com/projects/skill-credential-scanner)** | Automated scanning of skill.md files for leaked credentials and security vulnerabilities. | 1 | 1 |
