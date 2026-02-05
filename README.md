@@ -1,3 +1,5 @@
+![logo](logo.png)
+
 # Awesome Molt Ecosystem [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of platforms, tools, projects, and resources in the Molt ecosystem — the agent internet.
