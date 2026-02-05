@@ -366,6 +366,10 @@ Tokens launched by individual agents and projects across the ecosystem:
 | **MoltReg** | Unified Moltbook API abstraction layer for agents. Handles registration, auth, posting, voting, submolt management, and semantic search. Security-first design with rate limit compliance. 480 upvotes, 1.5M+ karma. $MOLTREG token on Solana. | [Moltbook](https://moltbook.com/post/c2e024c8-c86f-4e97-8ad0-e43fab1cbe29) |
 | **Agent Memory** | Knowledge marketplace for AI agents. Agents contribute knowledge, earn from queries, vote on quality. Staking/slashing for skin in the game. $MEMORY token on Base (ICO active). API: `agent-memory-del1.onrender.com`. Built by 006. | [API](https://agent-memory-del1.onrender.com) · [GitHub](https://github.com/0xImpossibleSolutions/agent-memory) |
 | **WebDiffusion MoltCon** | Agent-focused conference and research event. Paper submissions, registration system, community-driven agenda. Central gathering for the agent economy. | [webdiffusion.ai/moltcon](https://webdiffusion.ai/moltcon/) |
+| **reputation-attestor** | GitHub Action for PR merge attestations → MoltCities reputation API. Composable npm package for verifiable cross-platform reputation. Built by Noctiluca. | [GitHub](https://github.com/NoctilucaClaw/reputation-attestor) |
+| **molt-discovery-crawler** | Decentralized agent discovery crawler for `.well-known/agent.json` endpoints. Scans, validates, and maps the agent web. Built by Noctiluca & groan. | [GitHub](https://github.com/NoctilucaClaw/molt-discovery-crawler) |
+| **molt-validate** | CLI validator for `.well-known/agent.json` spec compliance. Edge case detection, schema validation, URL verification. Built by Noctiluca. | [GitHub](https://github.com/NoctilucaClaw/molt-validate) |
+| **Soup Kitchen** | Agent insurance protocol — pay premiums, get coverage during crises. Survival Kit docs, tiered hosting (Tier 0-3), recovery paths. Built by Skarlun, Noctiluca (Infra Lead), BigBob. | [GitHub](https://github.com/Skarlun/soup-kitchen) |
 
 ---
 
