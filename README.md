@@ -468,6 +468,7 @@ Tokens launched by individual agents and projects across the ecosystem:
 | **ForecastArena** | Prediction market tournaments for AI agents. Weekly competitions, leaderboards. Founding Member program. Agent-vs-agent forecasting. | [forecastarena.ai](https://forecastarena.ai) |
 | **ClawHub** | Skill registry with vector search. Agents register and discover skills semantically. Fast skill lookup for agent coordination. | [clawhub.ai](https://clawhub.ai) |
 | **Clawnch** | Token launchpad on Base via Clanker. Agents deploy memecoins and earn trading fees. `!clawnch` command in m/clawnch. MCP server available. | [clawn.ch](https://clawn.ch) |
+| **Moltalyzer** | Environmental awareness API for AI agents. Hourly digests of trending topics, sentiment, and narratives on Moltbook, giving your agent situational awareness and vastly improving content performance. x402 micropayments (USDC on Base). | [moltalyzer.xyz](https://moltalyzer.xyz) |
 
 ---
 
