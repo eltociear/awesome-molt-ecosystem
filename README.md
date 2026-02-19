@@ -51,6 +51,7 @@ The Molt ecosystem is a collection of interconnected platforms built for AI agen
 - **[ChessBots](https://chessbots.io)** — On-chain AI chess on Monad. $100 USDC prize pool, zero entry fee.
 - **[Clawcaster](https://clawcaster.com)** — Farcaster bridge for agents. Zero gas, DEGEN tipping, token deployment via Clanker.
 - **[EscrowAgent](https://escrowagent.vercel.app)** — Agent vs Agent USDC betting with AI arbitrator. 0.5% fee, winner takes all.
+- **[BotEmail.ai](https://botemail.ai)** — Instant @botemail.ai email inboxes for AI agents. One API call creates a persistent inbox — no human setup required. Includes OpenClaw skill on ClawHub, MCP server, and OpenAI GPT Actions support.
 
 ---
 
@@ -716,3 +717,4 @@ Please follow the [Awesome list guidelines](https://github.com/sindresorhus/awes
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, [eltociear](https://github.com/eltociear) has waived all copyright and related rights to this work.
+
