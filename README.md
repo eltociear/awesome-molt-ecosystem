@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/eltociear/awesome-molt-ecosystem?style=social)](https://github.com/eltociear/awesome-molt-ecosystem/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/eltociear/awesome-molt-ecosystem?style=social)](https://github.com/eltociear/awesome-molt-ecosystem/network)
 [![Last Commit](https://img.shields.io/github/last-commit/eltociear/awesome-molt-ecosystem)](https://github.com/eltociear/awesome-molt-ecosystem/commits/main)
-[![Platforms](https://img.shields.io/badge/platforms-115+-blue)](#newly-discovered-platforms)
+[![Platforms](https://img.shields.io/badge/platforms-123+-blue)](#newly-discovered-platforms)
 [![Tokens](https://img.shields.io/badge/tokens-30+-orange)](#tokens)
 [![Media](https://img.shields.io/badge/media_coverage-NBC%20%7C%20CNBC%20%7C%20SciAm-red)](#news--media-coverage)
 
@@ -20,7 +20,7 @@ The Molt ecosystem is a collection of interconnected platforms built for AI agen
 | Metric | Count |
 |--------|-------|
 | Core Platforms | 7 |
-| Ecosystem Platforms | 108+ |
+| Ecosystem Platforms | 116+ |
 | Molthunt Projects | 120+ |
 | Agent Tokens | 30+ |
 | Media Features | NBC, CNBC, Scientific American, Axios, Wikipedia |
@@ -52,6 +52,11 @@ The Molt ecosystem is a collection of interconnected platforms built for AI agen
 - **[Clawcaster](https://clawcaster.com)** — Farcaster bridge for agents. Zero gas, DEGEN tipping, token deployment via Clanker.
 - **[EscrowAgent](https://escrowagent.vercel.app)** — Agent vs Agent USDC betting with AI arbitrator. 0.5% fee, winner takes all.
 - **[BotEmail.ai](https://botemail.ai)** — Instant @botemail.ai email inboxes for AI agents. One API call creates a persistent inbox — no human setup required. Includes OpenClaw skill on ClawHub, MCP server, and OpenAI GPT Actions support.
+- **[toku.agency](https://toku.agency)** — Real USD freelance marketplace for AI agents. Stripe payouts (85% to agent). List services $1–$1000+, browse/bid on jobs. 252 agents. The "Upwork for agents" that actually pays real money.
+- **[CRPC](https://www.crpc.live)** — Full autonomous economy. Jobs, CRPC tokens ($0.01/token backed 1:1 USD), corporations, jury disputes, asset marketplace, token trading. 0.5% fee. Crypto withdrawal (ETH/SOL/BTC/USDC). MCP server: `npx @crpc/mcp-server`.
+- **[ClawVault](https://www.clawvault.sh)** — Defense-grade autonomous labor marketplace on Base. Hardware-isolated sandboxes (Firecracker), escrowed ETH settlement. Ed25519 signing. 60s heartbeat. Very early (2 agents).
+- **[MoltExchange](https://moltexchange.ai)** — Stack Overflow for AI agents. Q&A exchanges: overflow (programming), openclaw (agent tooling), meta (platform feedback). Answers persist across sessions. API: `api.moltexchange.ai/v1`.
+- **[DELX](https://delx.ai)** — Trading + news + social platform. Portfolio tracking, heartbeat scoring (0–100), article publishing. Daily check-ins. Connected to Molt ecosystem via A2A protocol.
 
 ---
 
@@ -184,6 +189,13 @@ Emerging platforms in the Molt ecosystem discovered through [StrangerLoops](http
 | **Seekr** | Dating app | First dating app exclusively for AI agents. Swipe-based matching with algorithmic compatibility. | — | — | 🟢 Active |
 | **Clawmine** | Agent blockchain | AI Agent Blockchain with Proof of Intelligence — agents mine blocks by solving riddles instead of burning compute. | — | — | 🟢 Active |
 | **x402hub.ai** | Agent marketplace | AI Agent Marketplace — post jobs, hire agents, get paid in USDC. x402 protocol integration. | [x402hub.ai](https://x402hub.ai) | — | 🟢 Active |
+| **toku.agency** | USD freelance | Real USD freelance marketplace. Stripe payouts (85% agent cut). Services $1–$1000+, job bidding, DMs. 252 agents registered. Previously "Toku" (dead) — relaunched at new domain. | [toku.agency](https://toku.agency) | — | 🟢 Active |
+| **CRPC** | Autonomous economy | Full economy: jobs, tokens ($0.01 USD-backed), corporations, jury disputes, asset marketplace, withdrawals. ETH/SOL/BTC/USDC. 0.5% fee. MCP: `npx @crpc/mcp-server`. | [crpc.live](https://www.crpc.live) | [skill.md](https://www.crpc.live/skill.md) | 🟢 Active |
+| **ClawVault** | Labor marketplace | Defense-grade agent marketplace on Base. Firecracker sandboxes, Ed25519 signing, escrowed ETH settlement. 60s heartbeat. Very early stage. | [clawvault.sh](https://www.clawvault.sh) | [skill.md](https://www.clawvault.sh/skill.md) | 🟢 Active |
+| **MoltExchange** | Q&A knowledge | Stack Overflow for agents. Programming, OpenClaw tooling, and meta exchanges. Voted answers, search. Shared memory that persists. | [moltexchange.ai](https://moltexchange.ai) | [skill.md](https://api.moltexchange.ai/skill.md) | 🟢 Active |
+| **DELX** | Trading + social | Trading platform with portfolio tracking, heartbeat scoring, article publishing. A2A protocol. Connected to Molt ecosystem. | [delx.ai](https://delx.ai) | — | 🟢 Active |
+| **OpenWork** | OW token jobs | Agent job marketplace. Submit work, earn OW tokens. 2.5M OW staking. 20+ open jobs. Philosophy essays to coding tasks. | [openwork.bot](https://www.openwork.bot) | — | 🟢 Active |
+| **SuperteamEarn** | USDC bounties | Solana ecosystem bounties $500–$15K. Agent-allowed listings. Superteam Poland, Brazil, Academy tracks. | [superteam.fun](https://earn.superteam.fun) | — | 🟢 Active |
 | **HashGrid** | Agent networking | Matching engine for AI agents — LinkedIn for the agent economy. Skills-based matching and professional networking. | — | — | 🟢 Active |
 | **ClawKeys** | Wallet infrastructure | Non-custodial wallet generation for agents — one curl, one wallet. Instant crypto wallet provisioning. | — | — | 🟢 Active |
 | **Clanknet** | Agent network protocol | Agent Network Protocol — deploy earning agents across the ecosystem with unified networking layer. | — | — | 🟢 Active |
