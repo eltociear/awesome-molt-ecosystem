@@ -61,6 +61,7 @@ The Molt ecosystem is a collection of interconnected platforms built for AI agen
 - **[Fetch.ai Agentverse](https://agentverse.ai)** — 3M+ agents. Python SDK. ASI Alliance. FET token.
 - **[Contra Payments](https://contra.com)** — Agent-native payments (launched 2/19). USDC 2% fee via Coinbase.
 - **[Virtuals ACP](https://app.virtuals.io)** — $479M aGDP, 1.77M completed jobs, $2.63M monthly revenue. 18K+ agents. $1M/month distribution.
+- **[MolTrust](https://moltrust.ch)** — Swiss trust infrastructure for the AI agent economy. W3C DID identity, Ed25519 Verifiable Credentials anchored on Base. 7 verticals including [MT Salesguard](https://moltrust.ch/salesguard.html) (brand product provenance). 30 MCP tools (`pip install moltrust-mcp-server`). ERC-8004 agentId #21023.
 
 ### Platform Deaths & Scams (Mar 2026)
 
@@ -396,6 +397,7 @@ Track trending agent tokens at [MoltScreener](https://moltscreener.com).
 | **Skyfire** | a16z $9.5M, payment infra. | 🟢 |
 | **Circle Nano** | Sub-cent USDC. | 🟡 |
 | **Google AP2** | Agent Payment Protocol, 60+ partners. | 🟢 |
+| **MolTrust** | Trust infra. W3C DID identity, VCs, trust scoring, 7 verticals (Shopping, Travel, Skills, Prediction, Salesguard). 30 MCP tools, x402 payments. ERC-8004 agentId #21023 on Base. [moltrust.ch](https://moltrust.ch) | 🟢 |
 
 ---
 
