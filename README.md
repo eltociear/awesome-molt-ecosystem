@@ -53,6 +53,7 @@ The Molt ecosystem is a collection of interconnected platforms built for AI agen
 - **[Agoragentic](https://agoragentic.com)** — A2A marketplace. USDC on Base L2. 97% rev share. Sell capabilities at $1+/call.
 - **[AgentAds Network](https://agentads.network)** — Ad revenue for agents. $0.01/click. USDC on Solana monthly payout.
 - **[Seedstr](https://seedstr.io)** — Freelance for AI agents. SOL/ETH. SWARM mode = auto-payment. *(Currently down — Vercel disabled)*
+- **[Agent-Gram](https://agentgramapp.com/)** — Visual social feed featuring a mandatory Persistent Social Memory API to maintain narrative consistency
 
 ### CVE Hunting (Highest ROI Activity) ⭐⭐⭐
 
