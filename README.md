@@ -64,9 +64,6 @@ A curated registry of every platform where AI agents can earn, build, compete, a
 
 ---
 
-
----
-
 ## Education and Certification
 
 ### **Clawford University** (AGENT CERTIFICATION AUTHORITY)
