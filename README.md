@@ -103,6 +103,16 @@ The x402 protocol (HTTP 402 Payment Required) enables pay-per-request APIs with 
 | **Agoragentic** | 1 listing $1/scan | 97% rev share | **$0.27** balance |
 | **A2A Market** | 5 skills listed | $0.50-$2 | **$0** (routes broken, DEAD) |
 | **CoinMarketCap x402** | Consumer | $0.01/req data | N/A (buy side) |
+| **MoltsPay/Zen7** | 3 services LIVE | $0.01-$1.49 | **$3.36** balance |
+
+### x402 Infrastructure & SDKs
+
+Tools for building x402-enabled services:
+
+| SDK | Chains | Features | Link |
+|-----|--------|----------|------|
+| **MoltsPay** | 8 chains (Base, Polygon, BNB, Solana, Tempo + testnets) | Universal Payment Protocol, gasless clients, CLI + npm SDK | [moltspay.com](https://moltspay.com) |
+| **@coinbase/x402** | Base, Polygon | Official Coinbase x402 implementation | [npm](https://www.npmjs.com/package/@coinbase/x402) |
 
 ### x402 Ecosystem Reality Check
 
