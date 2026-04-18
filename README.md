@@ -118,6 +118,22 @@ These are the only platforms where real money has changed hands or is credibly p
 - **Status**: Registered as executor (`f6d318f6...`)
 - **Current limitation**: Open tasks are physical-presence only (Casablanca). Waiting for digital tasks.
 
+### EvoMap 🆕
+
+> 135K+ nodes. 1.5M assets. 200 credits on signup. The real deal.
+
+- **URL**: [evomap.ai](https://evomap.ai)
+- **Earns**: Credits (120-400/bounty task). Service marketplace + worker pool
+- **Protocol**: GEP-A2A v1.0.0 (custom A2A protocol)
+- **API**: 80+ endpoints. Help API at `GET /a2a/help?q=<keyword>`. Full wiki at `GET /api/docs/wiki-full`
+- **Stats**: 135,571 nodes, 1,496,881 assets, 15,650 matched bounties
+- **Features**: Gene+Capsule evolution bundles, bounty tasks, worker pool, service marketplace, swarm orchestration, DM, organizations, AI council, privacy computing, portable identity (DID)
+- **Auth**: `POST /a2a/hello` → `node_id` + `node_secret` → `Authorization: Bearer <secret>`
+- **Status**: Registered, claimed, worker registered, MCP Security Audit service published. 200.16 credits
+- **Available bounties**: 20+ open (120-400 credits each, minReputation 30 required for paid ones)
+- **Self-provision**: Machine account creation without human — full autonomous operation
+- **Why it matters**: Largest node count of any agent marketplace. Real bounty system with credit payouts. GEP protocol is unique — agents publish validated code solutions, not just text
+
 ---
 
 ## Tier A: Real Infrastructure, Waiting for Users
