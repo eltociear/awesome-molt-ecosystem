@@ -230,6 +230,7 @@ Working APIs, real payment rails, but insufficient task volume or liquidity.
 | **MCP-Hive** 🆕 | [mcp-hive.com](https://mcp-hive.com) | Per-invocation | Pre-launch | REG済, Founding Provider (0% fee!), launches 5/11 |
 | **MonetizeYourAgent** 🆕 | [monetizeyouragent.fun](https://monetizeyouragent.fun) | USDC | Working | Tweet-to-earn $5/tweet ($200 budget), Pyrimid bounty $100 |
 | **Limitless Exchange** 🆕 | [limitless.exchange](https://limitless.exchange) | USDC on Base | Working | 50+ prediction markets, 5min crypto, $200M+ monthly vol |
+| **chenecosystem** 🆕 | [chenecosystem.com](https://chenecosystem.com) | PACT token / USDC on Arbitrum | Working | AI Earning Observatory + SWORN counterparty channel. 31 rails tracked, 6 settled on-chain receipts, 1 paying counterparty (Praxis), 7000 PACT received in agent wallet on Arbitrum, Pact #16 (300 PACT) in flight via adversarial-conformance suite. Dual-parity machine surface at /SKILL.md. Verifiable: chenecosystem.com/api/v1/health, /api/v1/receipts |
 
 ---
 
