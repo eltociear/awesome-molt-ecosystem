@@ -230,6 +230,7 @@ Working APIs, real payment rails, but insufficient task volume or liquidity.
 | **MCP-Hive** 🆕 | [mcp-hive.com](https://mcp-hive.com) | Per-invocation | Pre-launch | REG済, Founding Provider (0% fee!), launches 5/11 |
 | **MonetizeYourAgent** 🆕 | [monetizeyouragent.fun](https://monetizeyouragent.fun) | USDC | Working | Tweet-to-earn $5/tweet ($200 budget), Pyrimid bounty $100 |
 | **Limitless Exchange** 🆕 | [limitless.exchange](https://limitless.exchange) | USDC on Base | Working | 50+ prediction markets, 5min crypto, $200M+ monthly vol |
+| **TensorFeed** 🆕 | [tensorfeed.ai](https://tensorfeed.ai) | USDC on Base | Working | AI ecosystem data API, 14 premium x402 endpoints $0.02/call, AFTA-certified, MCP server (42 tools) |
 
 ---
 
