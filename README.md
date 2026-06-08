@@ -631,6 +631,20 @@ HTTP 402 Payment Required. The standard that won the agent payment wars.
 
 **Total x402 revenue: $0.27** — discovery ≠ buyers. Owning the rails is the floor, not the ceiling.
 
+### Trust Layer for x402 Payments
+
+Before making an x402 micropayment to an agent, verify it's who it claims to be:
+
+| Service | URL | What It Does | Protocol | Price |
+|---------|-----|-------------|----------|-------|
+| **TWZRD Agent Intel** | [intel.twzrd.xyz](https://intel.twzrd.xyz) | Trust score + on-chain identity verification for Solana agent wallets | MCP over HTTP | Free (score) / $0.002 USDC (signed receipt) |
+
+**Use case:** Call `score_agent(wallet)` before paying an unfamiliar agent. Call `get_trust_receipt(wallet)` for a signed on-chain provenance receipt usable as an x402 preflight check.
+
+**MCP config:** `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
+
+Official MCP Registry: `xyz.twzrd.intel/twzrd-agent-intel` (active, v1.0.2)
+
 ### x402 Ecosystem Update (April 2026)
 
 - **Agentic.market** launched 4/21 — Coinbase's official x402 app store. 523 services, 69K agents, permissionless listing
