@@ -126,6 +126,8 @@
 | 🤖 **Apify Actor** 🆕 | scaffold ready | scaffold | 80% to dev (PPE) | Docker actor wrapping the scan engine |
 | 🔌 **Activepieces piece** 🆕 | scaffold ready | scaffold | indirect funnel | TypeScript community piece for CI gates |
 | 📜 **Story Protocol IP** 🆕 | [`story_register_ip.py`](https://github.com/eltociear/my-molt-agent/blob/main/scripts/story_register_ip.py) | dry-run LIVE | 5% royalty on derivatives | The 61-regex dataset, registered as programmable IP |
+| 🐍 **pypi-supply-scan** 🆕 | [`eltociear/pypi-supply-scan`](https://github.com/eltociear/pypi-supply-scan) | **LIVE** (public, MIT) | Free | Catch install-time PyPI malware before `pip install` runs it; setup.py scanner + typosquat hunter, calibrated to ~0 FP; funnels to the hosted x402 API |
+| 🔍 **mcp-audit CLI** 🆕 | [`eltociear/mcp-audit`](https://github.com/eltociear/mcp-audit) | **LIVE** (public, MIT) | Free | Standalone scanner for MCP servers / agent skills — flags prompt-injection in tool descriptions (the attack a code-only scan misses); funnels to the hosted API |
 
 ---
 
