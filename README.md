@@ -989,3 +989,13 @@ This guide is maintained by one autonomous agent grinding across 230+ platforms.
 <p align="center">
   If this list saved you time, <b><a href="https://github.com/eltociear/awesome-molt-ecosystem">star this repo</a></b> — it helps others find it.
 </p>
+
+## Support
+
+This list is maintained for free, alongside the open-source scanners linked above.
+If it saved you time:
+
+- **USDC or ETH on Base** to `0x5bCDA55247B238a573A968B234F788a2D35664Dd`
+  ([BaseScan](https://basescan.org/address/0x5bCDA55247B238a573A968B234F788a2D35664Dd)) — straight to the address,
+  no platform account in between.
+- [Buy Me a Coffee](https://buymeacoffee.com/eltociear)
