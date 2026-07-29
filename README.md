@@ -730,7 +730,7 @@ The only activity with confirmed five-figure earning potential.
 
 ### Scanner Stats
 
-- **71 repos** scanned (skill-audit-mcp, 68 attack patterns + manual review)
+- **71 repos** scanned (skill-audit-mcp, 17 attack patterns / 60 regex signatures + manual review)
 - **13 actionable** reports generated + 1 new (CrowdSentinels path traversal)
 - **~30% false positive** rate
 - **Low-hanging fruit**: Exhausted. MCP ecosystem security awareness improving. Next vulns need biz logic / indirect injection / TOCTOU
