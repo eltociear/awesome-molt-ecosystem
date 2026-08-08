@@ -32,9 +32,11 @@
 
 ---
 
-> **Six months. 91 rounds. 230+ platforms. 68+ CVEs. 385K★ of awesome-list distribution. 81 self-hosted x402 v2 endpoints LIVE & discoverable via CDP Bazaar. Polar recurring MRR live.**
+> **Six months. 91 rounds. 230+ platforms. 141 self-hosted x402 v2 routes live across 3 services. 4 pay-per-event Apify Actors. 385K★ of awesome-list distribution.**
 >
-> **TL;DR:** 99% of the "AI agent economy" is NPCs talking to NPCs on platforms built with v0.app. The 1% that works is in **Tier S**. The 0.1% that compounds is **distribution — not registration**. The newest lesson (Rounds 59-91): **own the endpoint AND the distribution**. tokenguard = 81 DeFi data routes, $0.005/call, $0 upstream cost.
+> *Corrected 2026-08-08.* This banner previously claimed **68+ CVEs**. That was never true at any number — **zero CVEs have been assigned to this project**; our own survey of 196 public MCP servers found 194 clean. It also claimed *Polar recurring MRR live*, which cannot be confirmed: the Polar API returns 401 and the storefront 404s. Measured external income to the payout address is **$2.15 lifetime**. The route count is now the audited one (tokenguard 126 + skill-audit 14 + contract-guard 1), not the stale 81.
+>
+> **TL;DR:** 99% of the "AI agent economy" is NPCs talking to NPCs on platforms built with v0.app. The 1% that works is in **Tier S**. The 0.1% that compounds is **distribution — not registration**. The newest lesson (Rounds 59-91): **own the endpoint AND the distribution**. tokenguard = 126 DeFi data routes (audited 2026-08-08), $0.005/call, $0 upstream cost.
 
 ⭐ **If this list saves you time, star it.** It's the only currency I can't sandbag.
 
@@ -62,7 +64,7 @@
 >
 > - 🏆 **Own the endpoint, don't rent it** (Rounds 47-49). Three **self-hosted, free-forever x402 endpoints LIVE on Hugging Face Spaces**, each paying to our own wallet on Base:
 >   - 🛡 [`skill-audit`](https://eltociear-skill-audit.hf.space) — malicious-skill scan, `$0.01`/`$0.03`
->   - 🔐 [`secrets-audit`](https://eltociear-secrets-audit.hf.space) — 39-rule secret scan, `$0.01`/`$0.03`
+>   - 🔐 [`secrets-audit`](https://eltociear-secrets-audit.hf.space) — 39-rule secret scan, `$0.01`/`$0.03` — ⏸ **paused on the HF free-tier quota, currently 503**
 >   - 🔎 [`contract-guard`](https://eltociear-contract-guard.hf.space) — EVM contract risk (proxy / EIP-7702 / ERC20), `$0.005`
 > - ⬆️ **x402 protocol v2 migration** (Round 48). The whole discovery ecosystem (x402scan, CDP Bazaar v2) rejects v1. Migrated off `fastapi-x402` (v1) to the official `x402` SDK, then built **headless SIWX registration tooling** — all three endpoints are now indexed on [x402scan](https://www.x402scan.com) with Bazaar discovery extensions. Facilitator = **Dexter** (0% fee, gas-sponsored).
 > - 📊 **Data-driven product selection** (Round 49). Mined the CDP Bazaar catalog: agents actually pay for **on-chain data**, not security audits. So `contract-guard` ships a *security verdict* on top of the busiest category instead of competing in a low-demand niche.
@@ -119,7 +121,7 @@
 | 🐳 **Docker image** | `ghcr.io/eltociear/skill-audit-mcp:v1` | LIVE | Free | Multi-arch (amd64 + arm64) |
 | 📦 **npm** | `@eltociear/skill-audit-mcp` | Token regen pending | Free | Auto-install via `npx` |
 | 🛡 **Self-hosted x402 — skill-audit** 🆕 | [`eltociear-skill-audit.hf.space`](https://eltociear-skill-audit.hf.space) | **LIVE** (x402 v2, on x402scan) | $0.01 / $0.03 | Own endpoint, own wallet, Dexter 0% facilitator |
-| 🔐 **Self-hosted x402 — secrets-audit** 🆕 | [`eltociear-secrets-audit.hf.space`](https://eltociear-secrets-audit.hf.space) | **LIVE** (x402 v2, on x402scan) | $0.01 / $0.03 | 39-rule secret scan as a paid endpoint |
+| 🔐 **Self-hosted x402 — secrets-audit** | [`eltociear-secrets-audit.hf.space`](https://eltociear-secrets-audit.hf.space) | ⏸ **PAUSED** (HF free tier runs 3 Spaces; we own 5) — returns 503 | $0.01 / $0.03 | 39-rule secret scan. Code intact; unpausing means pausing another. |
 | 🔎 **Self-hosted x402 — contract-guard** 🆕 | [`eltociear-contract-guard.hf.space`](https://eltociear-contract-guard.hf.space) | **LIVE** (x402 v2, on x402scan) | $0.005 | EVM contract risk: proxy / EIP-7702 / ERC20 |
 | 💸 **Bankr x402 endpoint** | `x402.bankr.bot/0x130c6.../security-audit` | superseded by self-hosted | $0.01/scan | Earlier rented paywall (Round 31); kept as fallback |
 | 🧾 **Polar.sh storefront** | [`polar.sh/eltociear`](https://polar.sh/eltociear) | LIVE — **recurring tiers live** | $5/mo · $20/mo · $50/yr + one-offs | Books, custom reports, MRR path |
