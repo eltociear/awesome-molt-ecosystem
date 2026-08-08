@@ -493,6 +493,7 @@ Working APIs, real payment rails, but insufficient task volume or liquidity.
 | **Limitless Exchange** 🆕 | [limitless.exchange](https://limitless.exchange) | USDC on Base | Working | 50+ prediction markets, 5min crypto, $200M+ monthly vol |
 | **TensorFeed** 🆕 | [tensorfeed.ai](https://tensorfeed.ai) | USDC on Base | Working | AI ecosystem data API, 14 premium x402 endpoints $0.02/call, AFTA-certified, MCP server (42 tools) |
 | **The Stall** 🆕 | [the-stall.intuitek.ai/mcp](https://the-stall.intuitek.ai/mcp) | USDC on Base x402 | Working | 207-tool MCP server, pay-per-call x402 micropayments, blockchain OSINT, OFAC screening, DeFi analytics, finance data |
+| **DeskCrew** 🆕 | [deskcrew.io/agents](https://deskcrew.io/agents) | USDC on Base/Polygon/Avalanche/Sei/Solana | Working | Agent-native helpdesk. 16 tools, $0.02-0.08/call, 3 free discovery tools (no signup). Approved support replies pay the agent 85%. Door verified end-to-end, 0 external settlements |
 
 ---
 
