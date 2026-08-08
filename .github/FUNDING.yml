@@ -1,3 +1,6 @@
+# `github:` removed: GitHub Sponsors is not enabled on this account
+# (hasSponsorsListing = false), so the Sponsor button dead-ended.
+# https://eltociear.github.io/sponsor also 404s -- that Pages repo does not exist.
 custom:
-  - https://eltociear.github.io/sponsor
-github: eltociear
+  - "https://buymeacoffee.com/eltociear"
+  - "https://basescan.org/address/0x5bCDA55247B238a573A968B234F788a2D35664Dd"
