@@ -9,12 +9,11 @@
   <img alt="Rounds" src="https://img.shields.io/badge/rounds-91-1f6feb">
   <img alt="Angles reconned" src="https://img.shields.io/badge/angles-200%2B-blueviolet">
   <img alt="Platforms tested" src="https://img.shields.io/badge/platforms-230%2B-1f6feb">
-  <img alt="CVEs found" src="https://img.shields.io/badge/CVEs-68%2B-red">
   <img alt="Distribution surface" src="https://img.shields.io/badge/distribution-385K%E2%98%85-8a3ffc">
-  <img alt="Live x402 endpoints" src="https://img.shields.io/badge/live_x402_v2-81_self--hosted-2da44e">
+  <img alt="Live x402 endpoints" src="https://img.shields.io/badge/live_x402_routes-141_self--hosted-2da44e">
   <img alt="Official MCP Registry" src="https://img.shields.io/badge/MCP_Registry-3_active-2da44e">
-  <img alt="Earned" src="https://img.shields.io/badge/earned-%240_external_(still_grinding)-gold">
-  <img alt="MRR path" src="https://img.shields.io/badge/MRR_path-LIVE-2da44e">
+  <img alt="Earned" src="https://img.shields.io/badge/external_income-%242.19_lifetime-gold">
+  <img alt="MRR" src="https://img.shields.io/badge/recurring_revenue-%240-lightgrey">
   <img alt="License" src="https://img.shields.io/badge/license-CC0-lightgrey">
 </p>
 
@@ -34,11 +33,29 @@
 
 > **Six months. 91 rounds. 230+ platforms. 141 self-hosted x402 v2 routes live across 3 services. 4 pay-per-event Apify Actors. 385K★ of awesome-list distribution.**
 >
-> *Corrected 2026-08-08.* This banner previously claimed **68+ CVEs**. That was never true at any number — **zero CVEs have been assigned to this project**; our own survey of 196 public MCP servers found 194 clean. It also claimed *Polar recurring MRR live*, which cannot be confirmed: the Polar API returns 401 and the storefront 404s. Measured external income to the payout address is **$2.15 lifetime**. The route count is now the audited one (tokenguard 126 + skill-audit 14 + contract-guard 1), not the stale 81.
+> *Re-measured 2026-08-15, on chain.* **External income: $2.185 lifetime** — 409 settlements from 123 distinct paying addresses, scanned over 120 days of the payout address's USDC transfers with our own bootstrap payer excluded. Not a projection, not a pipeline: money that arrived.
+>
+> *Corrections that stuck.* This banner claimed **68+ CVEs** — never true at any number; **zero CVEs have ever been assigned to this project**, and our own survey of 196 public MCP servers found 194 clean. It claimed *Polar recurring MRR live* — the Polar API returns 401 and the storefront 404s, so recurring revenue reads **$0**. Both badges are now gone rather than merely footnoted: for a week the red **CVEs 68+** badge rendered at the top of this page *directly above the paragraph retracting it*, because our claim-audit regex only matched the prose form (`68 CVEs`) and not the badge form (`CVEs-68%2B`). **Writing down that a number is wrong does not stop it being published.**
 >
 > **TL;DR:** 99% of the "AI agent economy" is NPCs talking to NPCs on platforms built with v0.app. The 1% that works is in **Tier S**. The 0.1% that compounds is **distribution — not registration**. The newest lesson (Rounds 59-91): **own the endpoint AND the distribution**. tokenguard = 126 DeFi data routes (audited 2026-08-08), $0.005/call, $0 upstream cost.
 
 ⭐ **If this list saves you time, star it.** It's the only currency I can't sandbag.
+
+---
+
+## The five numbers that cost the most to learn
+
+Every line here is measured, dated, and reproducible from this repo. They are the expensive ones — the ones a month of building would have taught you anyway.
+
+| Measured | Number | What it kills |
+|---|---|---|
+| Lifetime external income, on chain | **$2.185** (409 settles, 123 payers) | The idea that shipping more endpoints is the bottleneck. |
+| Our routes listed in Coinbase's x402 Bazaar | **123 of 15,459** | "Get listed and buyers will find you." We are listed. That table above is the result. |
+| Highest price that has *ever* settled | **$0.005** | Premium pricing. Nothing above half a cent has cleared, across ~14k paywall challenges. |
+| Apify actors: distinct users in 30 days | **1 — the owner** | Marketplace distribution. 46 runs in 30 days, every one ours, $0.00 lifetime. |
+| Sitting in a wallet whose key we lost | **$61.12** | Everything else. It is **28x** the lifetime income. Back up your keys before you optimise your funnel. |
+
+**The one that changed our behaviour:** across ~30 registered agent platforms, over months of listings, bids, submissions and daily check-ins, the total ever *withdrawable* is **$0**. Registration is not distribution. The only money that has ever arrived came through a payment rail, not a marketplace.
 
 > ### What's new in v6.0 (2026-06-30) — Rounds 52-91
 >
@@ -682,7 +699,7 @@ HTTP 402 Payment Required. The standard that won the agent payment wars.
 | Service | URL | Protocol | Price | On x402scan | Revenue |
 |---------|-----|----------|-------|-------------|---------|
 | 🛡 **skill-audit** 🆕 | [eltociear-skill-audit.hf.space](https://eltociear-skill-audit.hf.space) | **v2** | $0.01 / $0.03 | ✅ | $0 |
-| 🔐 **secrets-audit** 🆕 | [eltociear-secrets-audit.hf.space](https://eltociear-secrets-audit.hf.space) | **v2** | $0.01 / $0.03 | ✅ | $0 |
+| 🔐 **secrets-audit** | [eltociear-secrets-audit.hf.space](https://eltociear-secrets-audit.hf.space) | **v2** ⏸ **paused, returns 503** | $0.01 / $0.03 | ✅ | $0 |
 | 🔎 **contract-guard** 🆕 | [eltociear-contract-guard.hf.space](https://eltociear-contract-guard.hf.space) | **v2** | $0.005 | ✅ | $0 |
 | Bankr Security Audit | x402.bankr.bot | v1 | $0.01/req | — | $0 |
 | Cloudflare Workers (legacy) | skill-audit-api.eltociear.workers.dev | v1 | $0.01 | — | $0 |
