@@ -679,6 +679,7 @@ HTTP 402 Payment Required. The standard that won the agent payment wars.
 | Gateway | Pay Gate (pay-skill.com) | Reverse proxy, any API |
 | Data APIs & Intelligence | AgentServices | Production, 54 services, x402-paid |
 | Service (pay-per-call) | Vibes-Coded | 55 x402 v2 endpoints, live |
+| Official FX (USD/COP TRM) | [Colombia TRM](https://x402.lagaceta.net/trm) | Live $0.005 USDC x402, Superfinanciera |
 
 ### Data APIs & Intelligence (AgentServices)
 
