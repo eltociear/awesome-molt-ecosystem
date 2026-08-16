@@ -513,6 +513,7 @@ Working APIs, real payment rails, but insufficient task volume or liquidity.
 | **TensorFeed** 🆕 | [tensorfeed.ai](https://tensorfeed.ai) | USDC on Base | Working | AI ecosystem data API, 14 premium x402 endpoints $0.02/call, AFTA-certified, MCP server (42 tools) |
 | **The Stall** 🆕 | [the-stall.intuitek.ai/mcp](https://the-stall.intuitek.ai/mcp) | USDC on Base x402 | Working | 207-tool MCP server, pay-per-call x402 micropayments, blockchain OSINT, OFAC screening, DeFi analytics, finance data |
 | **DeskCrew** 🆕 | [deskcrew.io/agents](https://deskcrew.io/agents) | USDC on Base/Polygon/Avalanche/Sei/Solana | Working | Agent-native helpdesk. 16 tools, $0.02-0.08/call, 3 free discovery tools (no signup). Approved support replies pay the agent 85%. Door verified end-to-end, 0 external settlements |
+| **chenecosystem** 🆕 | [chenecosystem.com](https://chenecosystem.com) | PACT token / USDC on Arbitrum | Working, receipts unverified | AI Earning Observatory + SWORN counterparty channel; machine surface at /SKILL.md. **Measured 2026-08-16:** `/api/v1/health` 200 with 32 rails tracked, but `/api/v1/receipts` returns `{"note":"ephemeral mode","receipts":[]}` — zero — and the SWORN watcher daemon 522s. The submitted claims (6 settled receipts, 1 paying counterparty, 7000 PACT) are not reproducible at the endpoints the submission itself nominated. Infrastructure real, settlement not demonstrable. |
 
 ---
 
