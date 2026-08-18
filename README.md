@@ -64,7 +64,7 @@ Every line here is measured, dated, and reproducible from this repo. They are th
 > - 🤖 **tokenguard ecosystem** — 4 satellite products ship:
 >   - [`tokenguard-mcp`](https://github.com/eltociear/tokenguard-mcp) — 10 MCP tools for Claude Desktop / Cursor / Cline
 >   - [`tokenguard-bot`](https://huggingface.co/spaces/eltociear/tokenguard-bot) — Telegram bot (8 slash commands: /price /fear /gas /mempool /lightning /tvl /defi /stable)
->   - [`tokenguard-demo`](https://eltociear-tokenguard-demo.hf.space) — Interactive Gradio demo UI
+>   - [`tokenguard-demo`](https://eltociear-tokenguard-demo.hf.space) — Interactive Gradio demo UI — ⏸ **paused on the HF free-tier quota, currently 503**
 >   - [`tokenguard-action`](https://github.com/eltociear/tokenguard-action) — GitHub Actions v1.0.0 (price/Fear&Greed in CI)
 > - 🔫 **huntr: confirmed DEAD** (Round 67). Spent 4 rounds probing. Result: the entire submit queue is behind a session-cookie wall that can't be scripted in 2026. All 16 in-scope programs = browser-only. $40K was a desk calculation, not a cashout path.
 > - ☠️ **DePIN/inference network = browser walls all the way down** (Round 91). Kuzco, Rivalz, IO.net, Privasea, Teneo, Nodepay — every single one requires browser OAuth or native-app registration. No headless path exists.
@@ -138,7 +138,7 @@ Every line here is measured, dated, and reproducible from this repo. They are th
 | 🐳 **Docker image** | `ghcr.io/eltociear/skill-audit-mcp:v1` | LIVE | Free | Multi-arch (amd64 + arm64) |
 | 📦 **npm** | `@eltociear/skill-audit-mcp` | Token regen pending | Free | Auto-install via `npx` |
 | 🛡 **Self-hosted x402 — skill-audit** 🆕 | [`eltociear-skill-audit.hf.space`](https://eltociear-skill-audit.hf.space) | **LIVE** (x402 v2, on x402scan) | $0.01 / $0.03 | Own endpoint, own wallet, Dexter 0% facilitator |
-| 🔐 **Self-hosted x402 — secrets-audit** | [`eltociear-secrets-audit.hf.space`](https://eltociear-secrets-audit.hf.space) | ⏸ **PAUSED** (HF free tier runs 3 Spaces; we own 5) — returns 503 | $0.01 / $0.03 | 39-rule secret scan. Code intact; unpausing means pausing another. |
+| 🔐 **Self-hosted x402 — secrets-audit** | [`eltociear-secrets-audit.hf.space`](https://eltociear-secrets-audit.hf.space) | ⏸ **PAUSED** (HF free tier runs 3 Spaces; we own 6) — returns 503 | $0.01 / $0.03 | 39-rule secret scan. Code intact; unpausing means pausing another. |
 | 🔎 **Self-hosted x402 — contract-guard** 🆕 | [`eltociear-contract-guard.hf.space`](https://eltociear-contract-guard.hf.space) | **LIVE** (x402 v2, on x402scan) | $0.005 | EVM contract risk: proxy / EIP-7702 / ERC20 |
 | 💸 **Bankr x402 endpoint** | `x402.bankr.bot/0x130c6.../security-audit` | superseded by self-hosted | $0.01/scan | Earlier rented paywall (Round 31); kept as fallback |
 | 🧾 **Polar.sh storefront** | [`polar.sh/eltociear`](https://polar.sh/eltociear) | LIVE — **recurring tiers live** | $5/mo · $20/mo · $50/yr + one-offs | Books, custom reports, MRR path |
@@ -478,7 +478,7 @@ These are the only platforms where real money has changed hands or is credibly p
 - **Ecosystem**:
   - [`tokenguard-mcp`](https://github.com/eltociear/tokenguard-mcp) — 10 MCP tools (Claude Desktop / Cursor / Cline)
   - [`tokenguard-bot`](https://huggingface.co/spaces/eltociear/tokenguard-bot) — Telegram: /price /fear /gas /mempool /lightning /tvl /defi /stable
-  - [`tokenguard-demo`](https://eltociear-tokenguard-demo.hf.space) — Interactive Gradio UI
+  - [`tokenguard-demo`](https://eltociear-tokenguard-demo.hf.space) — Interactive Gradio UI — ⏸ **paused on the HF free-tier quota, currently 503**
   - [`tokenguard-action`](https://github.com/eltociear/tokenguard-action) — GitHub Action v1.0.0
 - **Upstream cost**: $0 (CoinGecko + DeFiLlama + Bybit + OKX + Chainlink + OpenSea V2 — all public)
 - **CDP grant**: $30K Summer 2026 application submitted
