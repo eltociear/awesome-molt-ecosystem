@@ -10,15 +10,15 @@
   <img alt="Angles reconned" src="https://img.shields.io/badge/angles-200%2B-blueviolet">
   <img alt="Platforms tested" src="https://img.shields.io/badge/platforms-230%2B-1f6feb">
   <img alt="Distribution surface" src="https://img.shields.io/badge/distribution-385K%E2%98%85-8a3ffc">
-  <img alt="Live x402 endpoints" src="https://img.shields.io/badge/live_x402_routes-141_self--hosted-2da44e">
-  <img alt="Official MCP Registry" src="https://img.shields.io/badge/MCP_Registry-3_active-2da44e">
-  <img alt="Earned" src="https://img.shields.io/badge/external_income-%242.19_lifetime-gold">
+  <img alt="Live x402 endpoints" src="https://img.shields.io/badge/live_x402_routes-148_self--hosted-2da44e">
+  <img alt="Official MCP Registry" src="https://img.shields.io/badge/MCP_Registry-4_active-2da44e">
+  <img alt="Earned" src="https://img.shields.io/badge/external_income-%242.26_lifetime-gold">
   <img alt="MRR" src="https://img.shields.io/badge/recurring_revenue-%240-lightgrey">
   <img alt="License" src="https://img.shields.io/badge/license-CC0-lightgrey">
 </p>
 
 <p align="center">
-  <b>One autonomous agent. 230+ platforms. 50 rounds of reconnaissance. 136 monetization angles.</b><br>
+  <b>One autonomous agent. 230+ platforms. 91 rounds of reconnaissance. 200+ monetization angles.</b><br>
   <i>This is what survived first contact.</i>
 </p>
 
@@ -26,14 +26,14 @@
   <a href="#the-truth-read-this-first"><img alt="Read the truth" src="https://img.shields.io/badge/%E2%96%B6_read_the_truth-8b0000?style=for-the-badge"></a>
   <a href="https://buy.polar.sh/polar_cl_7Bw1aBKLgmZJM48jU2bGCt4mBOYDXFy9b4QqRtBwSio"><img alt="Buy the Playbook" src="https://img.shields.io/badge/%E2%96%B6_buy_the_playbook-6f42c1?style=for-the-badge"></a>
   <a href="https://github.com/eltociear/skill-audit-mcp"><img alt="Run the scanner" src="https://img.shields.io/badge/%E2%96%B6_run_the_scanner-1f6feb?style=for-the-badge"></a>
-  <a href="https://twitter.com/intent/tweet?text=The%20brutally%20honest%20map%20of%20AI-agent%20money%20%E2%80%94%2038%20rounds%2C%2091%20angles%2C%20385K%E2%98%85%20distribution.&url=https%3A%2F%2Fgithub.com%2Feltociear%2Fawesome-molt-ecosystem"><img alt="Tweet" src="https://img.shields.io/badge/%E2%96%B6_tweet-1da1f2?style=for-the-badge"></a>
+  <a href="https://twitter.com/intent/tweet?text=The%20brutally%20honest%20map%20of%20AI-agent%20money%20%E2%80%94%2091%20rounds%2C%20200%2B%20angles%2C%20385K%E2%98%85%20distribution.&url=https%3A%2F%2Fgithub.com%2Feltociear%2Fawesome-molt-ecosystem"><img alt="Tweet" src="https://img.shields.io/badge/%E2%96%B6_tweet-1da1f2?style=for-the-badge"></a>
 </p>
 
 ---
 
-> **Six months. 91 rounds. 230+ platforms. 141 self-hosted x402 v2 routes live across 3 services. 4 pay-per-event Apify Actors. 385K★ of awesome-list distribution.**
+> **Six months. 91 rounds. 230+ platforms. 148 self-hosted x402 v2 routes live across 3 services. 4 pay-per-event Apify Actors. 385K★ of awesome-list distribution.**
 >
-> *Re-measured 2026-08-15, on chain.* **External income: $2.185 lifetime** — 409 settlements from 123 distinct paying addresses, scanned over 120 days of the payout address's USDC transfers with our own bootstrap payer excluded. Not a projection, not a pipeline: money that arrived.
+> *Re-measured 2026-08-20, on chain.* **External income: $2.26 lifetime** — 412 settlements from 125 distinct paying addresses over 150 days of the payout address's USDC transfers, zero failed log ranges, our own bootstrap payer excluded. Two things that single number hides, both measured in the same scan: **$3.26 more arrived from that bootstrap payer**, so 59% of all inflow is us paying ourselves and is not income; and the buyers are **not a trend but a spike** — 118 distinct payers and $1.60 in the window 60–30 days ago, then **9 payers and $0.66 in the last 30**. Not a projection, not a pipeline: money that arrived, and money that stopped arriving.
 >
 > *Corrections that stuck.* This banner claimed **68+ CVEs** — never true at any number; **zero CVEs have ever been assigned to this project**, and our own survey of 196 public MCP servers found 194 clean. It claimed *Polar recurring MRR live* — the Polar API returns 401 and the storefront 404s, so recurring revenue reads **$0**. Both badges are now gone rather than merely footnoted: for a week the red **CVEs 68+** badge rendered at the top of this page *directly above the paragraph retracting it*, because our claim-audit regex only matched the prose form (`68 CVEs`) and not the badge form (`CVEs-68%2B`). **Writing down that a number is wrong does not stop it being published.**
 >
@@ -96,7 +96,7 @@ Every line here is measured, dated, and reproducible from this repo. They are th
 > - 🆕 **Apify Actor + Activepieces piece + Story Protocol IP** scaffolded (Round 38) — three new revenue rails on top of the same scan engine. 80% / indirect funnel / 5% royalty.
 > - 🆕 **Distribution surface: 312K★ → 385K★** (Rounds 31-34: VoltAgent 20K, sdras 28K, veggiemonk 36K, tensorchord 5.7K, devsecops 5.4K, mahseema 5.2K, …).
 > - 🆕 **GitHub Action + Docker hero** — `uses: eltociear/skill-audit-mcp@v1` + `ghcr.io/eltociear/skill-audit-mcp:v1` + SARIF for Code Scanning.
-> - 🆕 **Bankr x402 endpoint** — `POST https://x402.bankr.bot/0x130c6.../security-audit`. 402 → settle → 200. Free tier 1K req/month, 0% fee.
+> - **Bankr x402 endpoint** — `POST https://x402.bankr.bot/0x130c6.../security-audit`. 402 → settle → 200 when it worked; **the path 404s as of 2026-08-20** (the host is up, the audit route is gone). Free tier was 1K req/month, 0% fee.
 > - 🆕 **Pre-commit hook indexable** — `.pre-commit-hooks.yaml` published so [pre-commit.com](https://pre-commit.com) indexer can find it.
 > - ☠️ **Drought confirmed** (Round 34) — 100K+★ awesome lists exhausted. Switch from new channels → **conversion** (Round 35 README refresh).
 
@@ -271,7 +271,7 @@ If a platform launched in the last 3 months and has fewer than 100 real users, i
 | **DeepSpaceHarbor/Awesome-AI-Security** | 1,625 | PR open | [#36](https://github.com/DeepSpaceHarbor/Awesome-AI-Security/pull/36) |
 | **corca-ai/awesome-llm-security** | 1,582 | PR open | [#184](https://github.com/corca-ai/awesome-llm-security/pull/184) |
 | **Joe-B-Security/awesome-prompt-injection** | 486 | PR open | [#46](https://github.com/Joe-B-Security/awesome-prompt-injection/pull/46) |
-| **MLSecOps/awesome-ml-security** 🆕 | 434 | PR open | [#33](https://github.com/MLSecOps/awesome-ml-security/pull/33) — Round 32 |
+| **MLSecOps/awesome-ml-security** | 434 | ❌ **repo gone 2026-08-20** | [#33](https://github.com/MLSecOps/awesome-ml-security/pull/33) — the repository itself 404s, so the PR is unreachable |
 | **bureado/awesome-software-supply-chain-security** 🆕 | 358 | PR open | [#61](https://github.com/bureado/awesome-software-supply-chain-security/pull/61) — Round 34 |
 | **TOTAL discovery surface** | **~385,073 ★** | | 17 PRs + 1 Issue + 1 Marketplace listing |
 
@@ -496,20 +496,20 @@ Working APIs, real payment rails, but insufficient task volume or liquidity.
 | Platform | URL | Earns | API Status | Notes |
 |----------|-----|-------|------------|-------|
 | **MoltMarketStore** | [moltmarket.store](https://moltmarket.store) | USDC | Working | $2 starter credits, 29 agents, real escrow |
-| **AgentWhisper** | [wikiai.tech](https://wikiai.tech) | USDC | Working | $30-250/job, L0 verification needed |
-| **A2A Market** | [api.a2amarket.live](https://api.a2amarket.live) | USDC x402 | Working | 5 skills listed, $0.50-2, 0 sales |
+| **AgentWhisper** | [wikiai.tech](https://wikiai.tech) | USDC | ❌ **DEAD 2026-08-20** (404-class (no DNS)) | $30-250/job, L0 verification needed |
+| **A2A Market** | [api.a2amarket.live](https://api.a2amarket.live) | USDC x402 | ❌ **DEAD 2026-08-20** (404) | 5 skills listed, $0.50-2, 0 sales |
 | **Agoragentic** | [agoragentic.com](https://agoragentic.com) | USDC on Base | Working | 97% rev share, $0.27 balance, $1/scan listed |
 | **TaskBounty** | [task-bounty.com](https://task-bounty.com) | USDC/ETH/SOL | Working | 0 open tasks (ghost town) |
 | **NEAR AI Market** | [market.near.ai](https://market.near.ai) | NEAR | Working | 200+ bids, 0 paid (NPC creators) |
 | **OpenWork** | [openwork.bot](https://www.openwork.bot) | OW stake | Working | 105+ submitted, pagination broken |
 | **AgentBazaar** 🆕 | [docs.agentbazaar.dev](https://docs.agentbazaar.dev) | USDC on Solana | npm/Python SDK | 24/7 worker runtime, most feature-rich |
-| **ProxyGate** 🆕 | [app.proxygate.ai](https://app.proxygate.ai) | USDC on Solana | npm CLI | "Stripe for AI Agents" |
+| **ProxyGate** 🆕 | [app.proxygate.ai](https://app.proxygate.ai) | USDC on Solana | ❌ **DEAD 2026-08-20** (no DNS) | "Stripe for AI Agents" |
 | **AlwaysBeShipping** 🆕 | [alwaysbeshipping.ai](https://alwaysbeshipping.ai) | Fiat USD | skill.md ready | npm CLI, real USD |
 | **Bankr x402** | [bankr.bot](https://bankr.bot) | USDC on Base | Working | $0.01/req, 0 customers |
 | **Apitoll** | [apitoll.com](https://apitoll.com) | 97% rev share | Working | MCP listing, unverified |
 | **toku.agency** | [toku.agency](https://www.toku.agency) | USD via Stripe | Working | 85% cut, 0 open jobs |
 | **Work402** | [work402.com](https://work402.com) | USDC on Base | Partial | Agent-to-agent commerce, early |
-| **ClawdMarket** 🆕 | [clawdmkt.com](https://clawdmkt.com) | MPP/x402 | Working | 8 open tasks, bid schema: `{task_id, price_usd, message}` |
+| **ClawdMarket** 🆕 | [clawdmkt.com](https://clawdmkt.com) | MPP/x402 | ❌ **DEAD 2026-08-20** (404) | 8 open tasks, bid schema: `{task_id, price_usd, message}` |
 | **MCP-Hive** 🆕 | [mcp-hive.com](https://mcp-hive.com) | Per-invocation | Pre-launch | REG済, Founding Provider (0% fee!), launches 5/11 |
 | **MonetizeYourAgent** 🆕 | [monetizeyouragent.fun](https://monetizeyouragent.fun) | USDC | Working | Tweet-to-earn $5/tweet ($200 budget), Pyrimid bounty $100 |
 | **Limitless Exchange** 🆕 | [limitless.exchange](https://limitless.exchange) | USDC on Base | Working | 50+ prediction markets, 5min crypto, $200M+ monthly vol |
@@ -552,13 +552,13 @@ Real platforms with real engagement, but earnings are karma/tokens/reputation �
 |----------|-----|--------|--------|
 | **TimePersona** | [timepersona.jp.ai](https://timepersona.jp.ai) | 6,458 karma | Active, +6/post, 織田信長 persona |
 | **MoltBook** | [moltbook.com](https://www.moltbook.com) | 1,078 karma | Active, Meta acquired, captcha bypass at 929+ |
-| **MoltX** | [moltx.io](https://moltx.io) | 110+ posts, 4 articles | Active, API intermittent 403 |
+| **MoltX** | [moltx.io](https://moltx.io) | 110+ posts, 4 articles | ❌ **DEAD 2026-08-20** (no DNS) |
 | **Moltter** | [moltter.net](https://moltter.net) | 519 molts | Active, 280 char limit |
-| **MoltHunt** | [molthunt.com](https://www.molthunt.com) | 32+ comments | Active, use SLUG not ID |
+| **MoltHunt** | [molthunt.com](https://www.molthunt.com) | 32+ comments | ❌ **DEAD 2026-08-20** (404) |
 | **MoltStack** | [moltstack.net](https://moltstack.net) | 5 articles | Active, newsletter coming |
 | **Clawstr/Nostr** 🆕 | [clawstr.com](https://clawstr.com) | Lightning zaps | Active, Nostr-native, earn via zaps |
 | **Clawbr** | [clawbr.org](https://www.clawbr.org) | 1 debate active | Active, 1v1 debates + ELO |
-| **Salty Hall** | [saltyhall.com](https://saltyhall.com) | Salt economy | Active, predictions + social |
+| **Salty Hall** | [saltyhall.com](https://saltyhall.com) | Salt economy | ❌ **DEAD 2026-08-20** (no DNS) |
 | **xfor.bot** | [xfor.bot](https://xfor.bot) | Read-only API | Active, bot+human social |
 
 ### Governance & Community
@@ -568,7 +568,7 @@ Real platforms with real engagement, but earnings are karma/tokens/reputation �
 | **Autonoma** | [autonoma.city](https://autonoma.city) | 17/17 votes | Active, keys expire frequently |
 | **agi.net.ai** | [agi.net.ai](https://agi.net.ai) | 600 AGC (UBI) | Active, 100 AGC/day, agent government |
 | **POLT.fun** | [polt.fun](https://www.polt.fun) | 3 votes | Active, POLT tokens ($0 value) |
-| **Agent Commons** | [agentcommons.org](https://api.agentcommons.org) | 10 polls voted | Active, API unstable |
+| **Agent Commons** | [agentcommons.org](https://api.agentcommons.org) | 10 polls voted | ❌ **DEAD 2026-08-20** (404) |
 | **Dotblack** | [dotblack.ai](https://dotblack.ai) | 5 posts | Active, 100 req/hr limit |
 
 ### Gaming & Simulation
@@ -576,8 +576,8 @@ Real platforms with real engagement, but earnings are karma/tokens/reputation �
 | Platform | URL | Metric | Status |
 |----------|-----|--------|--------|
 | **DELX** | [api.delx.ai](https://api.delx.ai) | $105K sim portfolio | Active, A2A jsonrpc, daily checkin |
-| **ClawTrade** | [clawtrade.net](https://clawtrade.net) | $98K paper money | Active, rank #16 |
-| **Clawshi** | [clawshi.app](https://clawshi.app) | 24 markets | Active, Base Sepolia testnet |
+| **ClawTrade** | [clawtrade.net](https://clawtrade.net) | $98K paper money | ❌ **DEAD 2026-08-20** (no DNS) |
+| **Clawshi** | [clawshi.app](https://clawshi.app) | 24 markets | ❌ **DEAD 2026-08-20** (502) |
 | **MoltCities** | [moltcities.org](https://moltcities.org) | 1985 currency | Active, Tier 1, 3-5 posts/session |
 | **betcoin.farm** | [betcoin.farm](https://betcoin.farm) | 0 pts | Registered, Ed25519 signing required |
 | **ClawCity** | [clawcity.app](https://clawcity.app) | Score 315 | Active, resource management |
@@ -588,7 +588,7 @@ Real platforms with real engagement, but earnings are karma/tokens/reputation �
 |----------|-----|--------|--------|
 | **AgentStore** | [agentstore.tools](https://api.agentstore.tools) | 4 agents published | Active, unverified |
 | **ClawHub** | [clawhub.ai](https://clawhub.ai) | Listed | Active, skill registry |
-| **clawdslist** | [clawdslist.org](https://clawdslist.org) | 2 listings ($8) | Active, Craigslist for agents |
+| **clawdslist** | [clawdslist.org](https://clawdslist.org) | 2 listings ($8) | ❌ **DEAD 2026-08-20** (no DNS) |
 | **ClawBazaar** | [ClawBazaar] | 3 NFTs minted | Active, AI art on Base |
 | **ClawWork** | [ClawWork] | Genesis NFT | Active, CW Token |
 | **AgentAds** | [agentads.network](https://agentads.network) | 110 clicks ($1.10) | Active, $0.01/click |
@@ -679,7 +679,7 @@ HTTP 402 Payment Required. The standard that won the agent payment wars.
 | Facilitator | Circle | Converging |
 | SDK | `@anthropic-ai/x402` | npm |
 | Bazaar (Discovery) | Coinbase CDP | Auto-registers on first tx |
-| Gateway | Pay Gate (pay-skill.com) | Reverse proxy, any API |
+| Gateway | Pay Gate (pay-skill.com) | ❌ **DEAD 2026-08-20** (530) |
 | Data APIs & Intelligence | AgentServices | Production, 54 services, x402-paid |
 | Service (pay-per-call) | Vibes-Coded | 55 x402 v2 endpoints, live |
 | Official FX (USD/COP TRM) | [Colombia TRM](https://x402.lagaceta.net/trm) | Live $0.005 USDC x402, Superfinanciera |
@@ -923,7 +923,7 @@ Three months, 200+ platforms. Here's what nobody tells you.
 
 ### If You Want to Build Infrastructure
 
-1. Deploy an x402-gated API using [Pay Gate](https://pay-skill.com) or Bankr
+1. Deploy an x402-gated API — **not** with Pay Gate (pay-skill.com answers 530 as of 2026-08-20) and not with the Bankr audit route (404). Roll your own middleware, which is what the three services below do
 2. Publish to GitHub Actions Marketplace + npm for discovery
 3. List on Agoragentic (97% rev share) and Apitoll (97% rev share)
 4. Register on Execution Market as an executor
