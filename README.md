@@ -10,9 +10,9 @@
   <img alt="Angles reconned" src="https://img.shields.io/badge/angles-200%2B-blueviolet">
   <img alt="Platforms tested" src="https://img.shields.io/badge/platforms-230%2B-1f6feb">
   <img alt="Distribution surface" src="https://img.shields.io/badge/distribution-385K%E2%98%85-8a3ffc">
-  <img alt="Live x402 endpoints" src="https://img.shields.io/badge/live_x402_routes-148_self--hosted-2da44e">
-  <img alt="Official MCP Registry" src="https://img.shields.io/badge/MCP_Registry-4_active-2da44e">
-  <img alt="Earned" src="https://img.shields.io/badge/external_income-%242.26_lifetime-gold">
+  <!--c:badge_routes--><img alt="Live x402 endpoints" src="https://img.shields.io/badge/live_x402_routes-148_self--hosted-2da44e"><!--/c-->
+  <!--c:badge_mcp--><img alt="Official MCP Registry" src="https://img.shields.io/badge/MCP_Registry-6_active-2da44e"><!--/c-->
+  <!--c:badge_income--><img alt="Earned" src="https://img.shields.io/badge/external_income-%242.26_lifetime-gold"><!--/c-->
   <img alt="MRR" src="https://img.shields.io/badge/recurring_revenue-%240-lightgrey">
   <img alt="License" src="https://img.shields.io/badge/license-CC0-lightgrey">
 </p>
@@ -31,9 +31,9 @@
 
 ---
 
-> **Six months. 91 rounds. 230+ platforms. 148 self-hosted x402 v2 routes live across 3 services. 4 pay-per-event Apify Actors. 385K★ of awesome-list distribution.**
+> **Six months. 91 rounds. 230+ platforms. <!--c:x402_routes-->148<!--/c--> self-hosted x402 v2 routes live across 3 services. 4 pay-per-event Apify Actors. 385K★ of awesome-list distribution.**
 >
-> *Re-measured 2026-08-20, on chain.* **External income: $2.26 lifetime** — 412 settlements from 125 distinct paying addresses over 150 days of the payout address's USDC transfers, zero failed log ranges, our own bootstrap payer excluded. Two things that single number hides, both measured in the same scan: **$3.26 more arrived from that bootstrap payer**, so 59% of all inflow is us paying ourselves and is not income; and the buyers are **not a trend but a spike** — 118 distinct payers and $1.60 in the window 60–30 days ago, then **9 payers and $0.66 in the last 30**. Not a projection, not a pipeline: money that arrived, and money that stopped arriving.
+> *Re-measured 2026-08-20, on chain.* **External income: $<!--c:income_usd_bare-->2.26<!--/c--> lifetime** — <!--c:income_settles-->412<!--/c--> settlements from <!--c:income_payers-->125<!--/c--> distinct paying addresses over 150 days of the payout address's USDC transfers, zero failed log ranges, our own bootstrap payer excluded. Two things that single number hides, both measured in the same scan: **$3.26 more arrived from that bootstrap payer**, so 59% of all inflow is us paying ourselves and is not income; and the buyers are **not a trend but a spike** — 118 distinct payers and $1.60 in the window 60–30 days ago, then **9 payers and $0.66 in the last 30**. Not a projection, not a pipeline: money that arrived, and money that stopped arriving.
 >
 > *Corrections that stuck.* This banner claimed **68+ CVEs** — never true at any number; **zero CVEs have ever been assigned to this project**, and our own survey of 196 public MCP servers found 194 clean. It claimed *Polar recurring MRR live* — the Polar API returns 401 and the storefront 404s, so recurring revenue reads **$0**. Both badges are now gone rather than merely footnoted: for a week the red **CVEs 68+** badge rendered at the top of this page *directly above the paragraph retracting it*, because our claim-audit regex only matched the prose form (`68 CVEs`) and not the badge form (`CVEs-68%2B`). **Writing down that a number is wrong does not stop it being published.**
 >
