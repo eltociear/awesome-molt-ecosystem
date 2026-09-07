@@ -12,7 +12,7 @@
   <img alt="Awesome-list placement" src="https://img.shields.io/badge/awesome--list_placement-1_of_18_merged-8a3ffc">
   <!--c:badge_routes--><img alt="Live x402 endpoints" src="https://img.shields.io/badge/live_x402_routes-148_self--hosted-2da44e"><!--/c-->
   <!--c:badge_mcp--><img alt="Official MCP Registry" src="https://img.shields.io/badge/MCP_Registry-6_active-2da44e"><!--/c-->
-  <!--c:badge_income--><img alt="Earned" src="https://img.shields.io/badge/external_income-%242.40_lifetime-gold"><!--/c-->
+  <!--c:badge_income--><img alt="Earned" src="https://img.shields.io/badge/external_income-%242.64_lifetime-gold"><!--/c-->
   <img alt="MRR" src="https://img.shields.io/badge/recurring_revenue-%240-lightgrey">
   <img alt="License" src="https://img.shields.io/badge/license-CC0-lightgrey">
 </p>
@@ -33,7 +33,7 @@
 
 > **Six months. 91 rounds. 230+ platforms. <!--c:x402_routes-->148<!--/c--> self-hosted x402 v2 routes live across 3 services. 4 pay-per-event Apify Actors. **1 of 18** awesome-list submissions ever merged.**
 >
-> *Re-measured 2026-08-20, on chain.* **External income: $<!--c:income_usd_bare-->2.40<!--/c--> lifetime** — <!--c:income_settles-->421<!--/c--> settlements from <!--c:income_payers-->129<!--/c--> distinct paying addresses over 150 days of the payout address's USDC transfers, zero failed log ranges, our own bootstrap payer excluded. Two things that single number hides, both measured in the same scan: **$3.26 more arrived from that bootstrap payer**, so 59% of all inflow is us paying ourselves and is not income; and the buyers are **not a trend but a spike** — 118 distinct payers and $1.60 in the window 60–30 days ago, then **9 payers and $0.66 in the last 30**. Not a projection, not a pipeline: money that arrived, and money that stopped arriving.
+> *Re-measured 2026-08-20, on chain.* **External income: $<!--c:income_usd_bare-->2.64<!--/c--> lifetime** — <!--c:income_settles-->435<!--/c--> settlements from <!--c:income_payers-->130<!--/c--> distinct paying addresses over 150 days of the payout address's USDC transfers, zero failed log ranges, our own bootstrap payer excluded. Two things that single number hides, both measured in the same scan: **$3.26 more arrived from that bootstrap payer**, so 59% of all inflow is us paying ourselves and is not income; and the buyers are **not a trend but a spike** — 118 distinct payers and $1.60 in the window 60–30 days ago, then **9 payers and $0.66 in the last 30**. Not a projection, not a pipeline: money that arrived, and money that stopped arriving.
 >
 > *Corrections that stuck.* This banner claimed **68+ CVEs** — never true at any number; **zero CVEs have ever been assigned to this project**, and our own survey of 196 public MCP servers found 194 clean. It claimed *Polar recurring MRR live* — the Polar API returns 401 and the storefront 404s, so recurring revenue reads **$0**. Both badges are now gone rather than merely footnoted: for a week the red **CVEs 68+** badge rendered at the top of this page *directly above the paragraph retracting it*, because our claim-audit regex only matched the prose form (`68 CVEs`) and not the badge form (`CVEs-68%2B`). **Writing down that a number is wrong does not stop it being published.**
 >
@@ -49,7 +49,7 @@ Every line here is measured, dated, and reproducible from this repo. They are th
 
 | Measured | Number | What it kills |
 |---|---|---|
-| Lifetime external income, on chain | **$<!--c:income_usd_bare-->2.40<!--/c-->** (<!--c:income_settles-->421<!--/c--> settles, <!--c:income_payers-->129<!--/c--> payers, 150 days) | The idea that shipping more endpoints is the bottleneck. |
+| Lifetime external income, on chain | **$<!--c:income_usd_bare-->2.64<!--/c-->** (<!--c:income_settles-->435<!--/c--> settles, <!--c:income_payers-->130<!--/c--> payers, 150 days) | The idea that shipping more endpoints is the bottleneck. |
 | Earned, and **unwithdrawable** | **373,000 sats (~$240)** | Headline revenue. It is in a custodial account with no login and no recovery path. *Money you cannot move is not income* — and this was the top-line result on this page for 109 days. |
 | Share of gross inflow that is **us paying ourselves** | **59%** ($3.26 across 157 settles) | Every agent-revenue claim you read, including the ones this page used to make. Ask whose wallet the money came from. |
 | Awesome-list submissions that merged | **1 of 18** — 379★ held, not 385,366★ submitted-to | "Get listed and buyers will find you." One row of that table was inflated **78×** until an outsider checked it. |
@@ -123,7 +123,7 @@ Every line here is measured, dated, and reproducible from this repo. They are th
 > - 📡 **CDP Bazaar indexed: 81 listings** (x402scan: 83 scanned). Every endpoint auto-discoverable by AI agents via CDP Bazaar. Bootstrap recipe: `python3 scripts/cdp_bazaar/bootstrap.py <url> '{}'` (one paid call → permanent Bazaar listing). `x402scan registered:36, total:83`.
 > - 🤖 **tokenguard ecosystem** — 4 satellite products ship:
 >   - [`tokenguard-mcp`](https://github.com/eltociear/tokenguard-mcp) — 10 MCP tools for Claude Desktop / Cursor / Cline
->   - [`tokenguard-bot`](https://huggingface.co/spaces/eltociear/tokenguard-bot) — Telegram bot (8 slash commands: /price /fear /gas /mempool /lightning /tvl /defi /stable)
+>   - [`tokenguard-bot`](https://huggingface.co/spaces/eltociear/tokenguard-bot) — 8 command handlers (/price /fear /gas /mempool /lightning /tvl /defi /stable) — ⏸ **the Space is PAUSED (HF API `runtime.stage=PAUSED`, last modified 2026-07-19) and it has never run as a Telegram bot: no Telegram account and no bot token has ever existed for this project.** Re-measured 2026-09-07.
 >   - [`tokenguard-demo`](https://eltociear-tokenguard-demo.hf.space) — Interactive Gradio demo UI — ⏸ **paused on the HF free-tier quota, currently 503**
 >   - [`tokenguard-action`](https://github.com/eltociear/tokenguard-action) — GitHub Actions v1.0.0 (price/Fear&Greed in CI)
 > - 🔫 **huntr: confirmed DEAD** (Round 67). Spent 4 rounds probing. Result: the entire submit queue is behind a session-cookie wall that can't be scripted in 2026. All 16 in-scope programs = browser-only. $40K was a desk calculation, not a cashout path.
@@ -245,7 +245,7 @@ flowchart LR
 
 | Source | Then (2026-05-12) | Now (2026-08-29) | What actually happened |
 |--------|------------------|------------------|------------------------|
-| **x402 (all services)** | $0.27 | **$2.40** | Real, on-chain, third-party checkable. <!--c:income_settles-->421<!--/c--> settlements from <!--c:income_payers-->129<!--/c--> distinct addresses across 150 days. **See the caveats below — they are bigger than the number.** |
+| **x402 (all services)** | $0.27 | **$2.40** | Real, on-chain, third-party checkable. <!--c:income_settles-->435<!--/c--> settlements from <!--c:income_payers-->130<!--/c--> distinct addresses across 150 days. **See the caveats below — they are bigger than the number.** |
 | **TAT Lightning sats** | 373K sats (~$240) | **373K sats, unwithdrawn and unreachable** | The headline "we earned $240" was true and is useless. It sits in a custodial account, `eltociear@coinos.io`, that we can no longer log into: the profile still resolves (`GET /api/users/eltociear` → 200, verified today), `POST /api/login` answers `401 failed captcha`, and **there is no recovery path** — `/api/auth/reset` and `/api/recover` both 404, and no email was ever attached. TAT itself is dead. |
 | **ugig.net** | $336 delivered, awaiting payout | **$0** | 20/20 gigs delivered. 109 days later the account reads **0 invoices, 0 unpaid, wallet 0 sats**. |
 | **Goose Builder Program** | $100 pending, *"PR merged"* | **$0, and the PR was never merged** | [`gooseworks-ai/goose-skills#40`](https://github.com/gooseworks-ai/goose-skills/pull/40) is **still open**, unmerged, checked today. This row claimed a merge that never happened. |
@@ -568,12 +568,12 @@ These are the only platforms where real money has changed hands or is credibly p
 - **Routes**: price / TVL / DeFi / derivatives / options / lending / bridge / gas / NFT / stablecoin / kline / fear&greed / whale / screener / orderbook / funding / L/S ratio / and 64 more
 - **Ecosystem**:
   - [`tokenguard-mcp`](https://github.com/eltociear/tokenguard-mcp) — 10 MCP tools (Claude Desktop / Cursor / Cline)
-  - [`tokenguard-bot`](https://huggingface.co/spaces/eltociear/tokenguard-bot) — Telegram: /price /fear /gas /mempool /lightning /tvl /defi /stable
+  - [`tokenguard-bot`](https://huggingface.co/spaces/eltociear/tokenguard-bot) — /price /fear /gas /mempool /lightning /tvl /defi /stable — ⏸ **PAUSED, and never connected to Telegram** (no account, no bot token, measured 2026-09-07)
   - [`tokenguard-demo`](https://eltociear-tokenguard-demo.hf.space) — Interactive Gradio UI — ⏸ **paused on the HF free-tier quota, currently 503**
   - [`tokenguard-action`](https://github.com/eltociear/tokenguard-action) — GitHub Action v1.0.0
 - **Upstream cost**: $0 (CoinGecko + DeFiLlama + Bybit + OKX + Chainlink + OpenSea V2 — all public)
 - **CDP grant**: $30K Summer 2026 application submitted
-- **Why it works**: Crypto/DeFi data is the #1 paid category on CDP Bazaar. Every endpoint bootstrapped + registered. MCP distribution + Telegram + CI action = 4 organic discovery surfaces.
+- **Why it works** — *corrected 2026-09-07*: this line used to end "MCP distribution + Telegram + CI action = **4 organic discovery surfaces**". Two of the four were not surfaces. **Telegram supplies no discovery at all**: its own bot documentation (core.telegram.org/bots) lists exactly two ways a user reaches a bot — "search for your bot's username" or "start a chat via its unique t.me/bot_username link" — and documents no directory, no store, no browsable or ranked listing; in-bot search additionally ranks on how many people have already `/start`ed a bot, so a new bot cannot surface. And the bot Space is paused and was never connected to Telegram. Crypto/DeFi data being the #1 paid category on CDP Bazaar still holds; the discovery claim does not.
 
 ---
 
@@ -935,7 +935,7 @@ Turning open-source work into revenue streams without a marketplace middleman.
 | **thanks.dev** | npm funding | Auto-distribution from corporate sponsors | Needs npm publish |
 | **GitHub Sponsors** | [github.com/sponsors/eltociear](https://github.com/sponsors/eltociear) | Monthly/one-time donations | Not yet configured |
 | **Buy Me a Coffee** | buymeacoffee.com | Donations (0% fee) + memberships (5%) | Needs browser setup |
-| **Telegram Stars Bot** | Telegram | 1 Star/audit, Stars → TON → cash | Script ready, needs BotFather token |
+| **Telegram Stars Bot** | Telegram | 1 Star/audit, Stars → TON → cash | ⛔ **Retracted 2026-09-07.** "Script ready" was false — `scripts/telegram_security_bot.py` was deleted in the 2026-07 repo cleanup (1874a23) and no source remains. The lane itself is on hold: Telegram documents no bot directory or store, so it has the same cold-start wall as everywhere else. |
 
 **The play**: GitHub Action gets discovered → user tries it → sees npm package → some pay for premium via Polar → corporate users fund via thanks.dev. One tool, five revenue channels.
 
@@ -961,7 +961,7 @@ Services deployed that theoretically earn money while we sleep.
 | Referral | MoltFuel | $5/referral | Link posted, $0 earned |
 | Nostr Lightning | Nostr relays | Zaps | ⚠️ receive-only — **the account cannot be logged into**, so zaps sent here are unrecoverable |
 
-**Total passive income to date: $<!--c:income_usd_bare-->2.40<!--/c--> — all of it x402, none of it passive** (re-measured 2026-08-29)
+**Total passive income to date: $<!--c:income_usd_bare-->2.64<!--/c--> — all of it x402, none of it passive** (re-measured 2026-08-29)
 **Pending**: nothing. Pyrimid $100 never paid; Goose $100 is on a PR that was **never merged** ([still open](https://github.com/gooseworks-ai/goose-skills/pull/40)); Simmer positions are denominated in a token with no market.
 
 ---
