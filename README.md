@@ -222,6 +222,8 @@ Every line here is measured, dated, and reproducible from this repo. They are th
 - [Open Source Monetization](#open-source-monetization)
 - [Passive Income Setup](#passive-income-setup)
 - [Lessons Learned](#lessons-learned)
+
+- **ox402-utils** (satisfaction-genetic-lightbox-buying.trycloudflare.com) — 88 paid tools for AI agents via x402 (USDC on Base): AI image gen, rewrite/translate, resume parser, PDF tools, research, security, media, speech (Kokoro TTS). MCP server at /mcp402/. No signup, no keys.
 - [How to Use This List](#how-to-use-this-list)
 - [Contributing](#contributing)
 
