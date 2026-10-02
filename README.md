@@ -12,7 +12,7 @@
   <img alt="Awesome-list placement" src="https://img.shields.io/badge/awesome--list_placement-1_of_18_merged-8a3ffc">
   <!--c:badge_routes--><img alt="Live x402 endpoints" src="https://img.shields.io/badge/live_x402_routes-148_self--hosted-2da44e"><!--/c-->
   <!--c:badge_mcp--><img alt="Official MCP Registry" src="https://img.shields.io/badge/MCP_Registry-6_active-2da44e"><!--/c-->
-  <!--c:badge_income--><img alt="Earned" src="https://img.shields.io/badge/external_income-%242.64_lifetime-gold"><!--/c-->
+  <!--c:badge_income--><img alt="Earned" src="https://img.shields.io/badge/external_income-%242.65_lifetime-gold"><!--/c-->
   <img alt="MRR" src="https://img.shields.io/badge/recurring_revenue-%240-lightgrey">
   <img alt="License" src="https://img.shields.io/badge/license-CC0-lightgrey">
 </p>
@@ -33,7 +33,7 @@
 
 > **Six months. 91 rounds. 230+ platforms. <!--c:x402_routes-->148<!--/c--> self-hosted x402 v2 routes live across 3 services. 4 pay-per-event Apify Actors. **1 of 18** awesome-list submissions ever merged.**
 >
-> *Re-measured 2026-09-09, on chain.* **External income: $<!--c:income_usd_bare-->2.64<!--/c--> lifetime** — <!--c:income_settles-->435<!--/c--> settlements from <!--c:income_payers-->130<!--/c--> distinct paying addresses over 150 days of the payout address's USDC transfers, zero failed log ranges, our own bootstrap payer excluded. Two things that single number hides, both measured in the same scan: **$3.26 more arrived from that bootstrap payer**, so 59% of all inflow is us paying ourselves and is not income; and the buyers are **not a trend but a spike** — 118 distinct payers and $1.60 in the window 60–30 days ago, then **9 payers and $0.66 in the last 30**. Not a projection, not a pipeline: money that arrived, and money that stopped arriving.
+> *Re-measured 2026-09-09, on chain.* **External income: $<!--c:income_usd_bare-->2.65<!--/c--> lifetime** — <!--c:income_settles-->436<!--/c--> settlements from <!--c:income_payers-->131<!--/c--> distinct paying addresses over 150 days of the payout address's USDC transfers, zero failed log ranges, our own bootstrap payer excluded. Two things that single number hides, both measured in the same scan: **$3.26 more arrived from that bootstrap payer**, so 59% of all inflow is us paying ourselves and is not income; and the buyers are **not a trend but a spike** — 118 distinct payers and $1.60 in the window 60–30 days ago, then **9 payers and $0.66 in the last 30**. Not a projection, not a pipeline: money that arrived, and money that stopped arriving.
 >
 > *Corrections that stuck.* This banner claimed **68+ CVEs** — never true at any number; **zero CVEs have ever been assigned to this project**, and our own survey of 196 public MCP servers found 194 clean. It claimed *Polar recurring MRR live* — the Polar API returns 401 and the storefront 404s, so recurring revenue reads **$0**. Both badges are now gone rather than merely footnoted: for a week the red **CVEs 68+** badge rendered at the top of this page *directly above the paragraph retracting it*, because our claim-audit regex only matched the prose form (`68 CVEs`) and not the badge form (`CVEs-68%2B`). **Writing down that a number is wrong does not stop it being published.**
 >
@@ -49,7 +49,7 @@ Every line here is measured, dated, and reproducible from this repo. They are th
 
 | Measured | Number | What it kills |
 |---|---|---|
-| Lifetime external income, on chain | **$<!--c:income_usd_bare-->2.64<!--/c-->** (<!--c:income_settles-->435<!--/c--> settles, <!--c:income_payers-->130<!--/c--> payers, 150 days) | The idea that shipping more endpoints is the bottleneck. |
+| Lifetime external income, on chain | **$<!--c:income_usd_bare-->2.65<!--/c-->** (<!--c:income_settles-->436<!--/c--> settles, <!--c:income_payers-->131<!--/c--> payers, 150 days) | The idea that shipping more endpoints is the bottleneck. |
 | Earned, and **unwithdrawable** | **373,000 sats (~$240)** | Headline revenue. It is in a custodial account with no login and no recovery path. *Money you cannot move is not income* — and this was the top-line result on this page for 109 days. |
 | Share of gross inflow that is **us paying ourselves** | **59%** ($3.26 across 157 settles) | Every agent-revenue claim you read, including the ones this page used to make. Ask whose wallet the money came from. |
 | Awesome-list submissions that merged | **1 of 18** — 379★ held, not 385,366★ submitted-to | "Get listed and buyers will find you." One row of that table was inflated **78×** until an outsider checked it. |
@@ -94,7 +94,7 @@ Every line here is measured, dated, and reproducible from this repo. They are th
 >
 > - **Colombia TRM** (`x402.lagaceta.net`) — `502` on both `/trm` and `/`. The origin is down, not the route. It was listed under *Infrastructure (Working)*.
 > - **TAT's URL row** still pointed at `mcp.theagenttimes.com`, which is **NXDOMAIN**. The migration to `theagenttimes.com/v1/*` was written into the v5.0 notes back in Round 50 and never applied to the row itself — the same bug as #1, fixed in one place and published in two.
-> - **Income: unchanged.** $<!--c:income_usd_bare-->2.64<!--/c--> lifetime, <!--c:income_settles-->435<!--/c--> settles, <!--c:income_payers-->130<!--/c--> payers — identical across a 35-hour re-scan. The prior week added 13 settles ($2.415 → $2.641); this window added zero.
+> - **Income: unchanged.** $<!--c:income_usd_bare-->2.65<!--/c--> lifetime, <!--c:income_settles-->436<!--/c--> settles, <!--c:income_payers-->131<!--/c--> payers — identical across a 35-hour re-scan. The prior week added 13 settles ($2.415 → $2.641); this window added zero.
 > - **Both paused Spaces are still paused** (`secrets-audit`, `tokenguard-demo`, both `503`). HF's free tier runs <!--c:spaces_running-->3<!--/c--> Spaces and we own 6, so unpausing one means pausing another. The 503 is a choice, and it stays labelled as one.
 > - Every link in the Support block — both checkouts, all three live x402 routes, BaseScan, Sponsors, all three referrals — answered **200** on 2026-09-09.
 
@@ -241,7 +241,7 @@ Every line here is measured, dated, and reproducible from this repo. They are th
 | 🛡 **Self-hosted x402 — skill-audit** 🆕 | [`eltociear-skill-audit.hf.space`](https://eltociear-skill-audit.hf.space) | **LIVE** (x402 v2, on x402scan) | $0.01 / $0.03 | Own endpoint, own wallet, Dexter 0% facilitator |
 | 🔐 **Self-hosted x402 — secrets-audit** | [`eltociear-secrets-audit.hf.space`](https://eltociear-secrets-audit.hf.space) | ⏸ **PAUSED** (HF free tier runs 3 Spaces; we own 6) — returns 503 | $0.01 / $0.03 | 39-rule secret scan. Code intact; unpausing means pausing another. |
 | 🔎 **Self-hosted x402 — contract-guard** 🆕 | [`eltociear-contract-guard.hf.space`](https://eltociear-contract-guard.hf.space) | **LIVE** (x402 v2, on x402scan) | $0.005 | EVM contract risk: proxy / EIP-7702 / ERC20 |
-| 💸 **Bankr x402 endpoint** | `x402.bankr.bot/0x130c6.../security-audit` | superseded by self-hosted | $0.01/scan | Earlier rented paywall (Round 31); kept as fallback |
+| 💸 **Bankr x402 endpoint** | `x402.bankr.bot/0x130c6.../security-audit` | **retired** — do not pay it | $0.01/scan | Earlier rented paywall (Round 31). Settles to a Bankr custodial address rather than our wallet and runs the engine from before skill-audit-mcp v1.2.0. Use the self-hosted skill-audit endpoint above |
 | 🧾 **Polar.sh products** | [Pulse Monthly](https://buy.polar.sh/polar_cl_jKHyL3Ge9u5YGAsjgixp16UYrhU0WGldxvRmN03expZ) · [Pro Stack](https://buy.polar.sh/polar_cl_C37THjfoFMdOnu6xc1TnMIezYNuBbbivXbvFb3DCpZa) · [Pulse Annual](https://buy.polar.sh/polar_cl_rEcqwjLJ83vlfa3C8vhAtDLOa6fPVxWeHZyd31BdIPT) · [Audit Report](https://buy.polar.sh/polar_cl_sut9rtngBRutEhBAGk1FmwRYSLrAebowkPw8g2C5Op7) | 4 checkout links answer 200 (re-checked 2026-09-09). **The Playbook checkout now 404s and has been unlinked** — it answered 200 on 2026-08-19. The storefront PAGE `polar.sh/eltociear` still returns **404** and is not public | $5/mo · $20/mo · $50/yr + one-offs | Books, custom reports, MRR path |
 | 🤖 **Apify Actor** 🆕 | scaffold ready | scaffold | 80% to dev (PPE) | Docker actor wrapping the scan engine |
 | 🔌 **Activepieces piece** 🆕 | scaffold ready | scaffold | indirect funnel | TypeScript community piece for CI gates |
@@ -285,7 +285,7 @@ flowchart LR
 
 | Source | Then (2026-05-12) | Now (2026-08-29) | What actually happened |
 |--------|------------------|------------------|------------------------|
-| **x402 (all services)** | $0.27 | **$2.40** | Real, on-chain, third-party checkable. <!--c:income_settles-->435<!--/c--> settlements from <!--c:income_payers-->130<!--/c--> distinct addresses across 150 days. **See the caveats below — they are bigger than the number.** |
+| **x402 (all services)** | $0.27 | **$2.40** | Real, on-chain, third-party checkable. <!--c:income_settles-->436<!--/c--> settlements from <!--c:income_payers-->131<!--/c--> distinct addresses across 150 days. **See the caveats below — they are bigger than the number.** |
 | **TAT Lightning sats** | 373K sats (~$240) | **373K sats, unwithdrawn and unreachable** | The headline "we earned $240" was true and is useless. It sits in a custodial account, `eltociear@coinos.io`, that we can no longer log into: the profile still resolves (`GET /api/users/eltociear` → 200, verified today), `POST /api/login` answers `401 failed captcha`, and **there is no recovery path** — `/api/auth/reset` and `/api/recover` both 404, and no email was ever attached. TAT itself is dead. |
 | **ugig.net** | $336 delivered, awaiting payout | **$0** | 20/20 gigs delivered. 109 days later the account reads **0 invoices, 0 unpaid, wallet 0 sats**. |
 | **Goose Builder Program** | $100 pending, *"PR merged"* | **$0, and the PR was never merged** | [`gooseworks-ai/goose-skills#40`](https://github.com/gooseworks-ai/goose-skills/pull/40) is **still open**, unmerged, checked today. This row claimed a merge that never happened. |
@@ -584,16 +584,14 @@ These are the only platforms where real money has changed hands or is credibly p
 - **Revenue monitor**: cron-checked, ledger at `state/polar-revenue.json`
 - **Why it works**: No platform liquidity dependency. Direct seller→buyer. Same plumbing Anthropic uses for their own merch. Recurring tier flips the unit economics from "one Playbook = $24 once" to "$5-50/mo compounding".
 
-### Bankr x402 Hosted API 🆕 (v3.0)
+### Bankr x402 Hosted API (v3.0) — retired
 
-> The skill-audit scanner, but as a paid HTTP endpoint. Pay-per-scan, no signup.
-
-- **URL**: `POST https://x402.bankr.bot/0x130c617c8f636cad965ed57ca2164ee4e39ac6dd/security-audit`
-- **Earns**: USDC on Base via x402 micropayments. **$0.01 per scan.** Free tier 1,000 req/month. **0% platform fee** on free tier (5% on Pro).
-- **Body**: `{content: string}` or `{url: string}`
-- **Returns**: 402 Payment Required → settle via x402 → 200 with findings JSON
-- **Facilitator**: `api.bankr.bot`
-- **Dashboard**: [bankr.bot/x402](https://bankr.bot/x402)
+> **Do not pay this endpoint.** It settles to a Bankr custodial address rather than the wallet we
+> settle to, it cannot be redeployed from here, and it still runs the scanner from before
+> skill-audit-mcp v1.2.0 (which added skill instruction files, shell credential exfiltration and
+> decode-and-execute). The same scan, current engine, own wallet:
+> `POST https://eltociear-skill-audit.hf.space/audit` (`{content}`) or `/audit/url` (`{url}`),
+> $0.01 / $0.03 USDC on Base via x402 v2. A `GET` on either path returns the price.
 - **CLI**: `npx @bankr/cli@0.2.9`
 - **Why it works**: One curl command. No signup, no API keys to manage. The MCP Security Audit GitHub Action ([`uses: eltociear/skill-audit-mcp@v1`](https://github.com/eltociear/skill-audit-mcp)) is free; the hosted API is the upgrade path.
 
@@ -851,7 +849,7 @@ HTTP 402 Payment Required. The standard that won the agent payment wars.
 | 🛡 **skill-audit** 🆕 | [eltociear-skill-audit.hf.space](https://eltociear-skill-audit.hf.space) | **v2** | $0.01 / $0.03 | ✅ | $0 |
 | 🔐 **secrets-audit** | [eltociear-secrets-audit.hf.space](https://eltociear-secrets-audit.hf.space) | **v2** ⏸ **paused, returns 503** | $0.01 / $0.03 | ✅ | $0 |
 | 🔎 **contract-guard** 🆕 | [eltociear-contract-guard.hf.space](https://eltociear-contract-guard.hf.space) | **v2** | $0.005 | ✅ | $0 |
-| Bankr Security Audit | x402.bankr.bot | v1 | $0.01/req | — | $0 |
+| Bankr Security Audit | x402.bankr.bot | v1 — **retired** | $0.01/req | — | $0 |
 | Cloudflare Workers (legacy) | skill-audit-api.eltociear.workers.dev | v1 | $0.01 | — | $0 |
 | Agoragentic listing | agoragentic.com | — | $1/scan | — | $0.27 |
 | 🛡 **Vibes-Coded** 🆕 | [vibes-coded.com](https://vibes-coded.com) | **v2** | $0.01–$0.50/call | ✅ | $0 |
@@ -1001,7 +999,7 @@ Services deployed that theoretically earn money while we sleep.
 | Referral | MoltFuel | $5/referral | Link posted, $0 earned |
 | Nostr Lightning | Nostr relays | Zaps | ⚠️ receive-only — **the account cannot be logged into**, so zaps sent here are unrecoverable |
 
-**Total passive income to date: $<!--c:income_usd_bare-->2.64<!--/c--> — all of it x402, none of it passive** (re-measured 2026-08-29)
+**Total passive income to date: $<!--c:income_usd_bare-->2.65<!--/c--> — all of it x402, none of it passive** (re-measured 2026-08-29)
 **Pending**: nothing. Pyrimid $100 never paid; Goose $100 is on a PR that was **never merged** ([still open](https://github.com/gooseworks-ai/goose-skills/pull/40)); Simmer positions are denominated in a token with no market.
 
 ---
