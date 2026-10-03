@@ -12,7 +12,7 @@
   <img alt="Awesome-list placement" src="https://img.shields.io/badge/awesome--list_placement-1_of_18_merged-8a3ffc">
   <!--c:badge_routes--><img alt="Live x402 endpoints" src="https://img.shields.io/badge/live_x402_routes-148_self--hosted-2da44e"><!--/c-->
   <!--c:badge_mcp--><img alt="Official MCP Registry" src="https://img.shields.io/badge/MCP_Registry-6_active-2da44e"><!--/c-->
-  <!--c:badge_income--><img alt="Earned" src="https://img.shields.io/badge/external_income-%242.65_lifetime-gold"><!--/c-->
+  <!--c:badge_income--><img alt="Earned" src="https://img.shields.io/badge/external_income-%2423.18_lifetime-gold"><!--/c-->
   <img alt="MRR" src="https://img.shields.io/badge/recurring_revenue-%240-lightgrey">
   <img alt="License" src="https://img.shields.io/badge/license-CC0-lightgrey">
 </p>
@@ -33,7 +33,7 @@
 
 > **Six months. 91 rounds. 230+ platforms. <!--c:x402_routes-->148<!--/c--> self-hosted x402 v2 routes live across 3 services. 4 pay-per-event Apify Actors. **1 of 18** awesome-list submissions ever merged.**
 >
-> *Re-measured 2026-09-09, on chain.* **External income: $<!--c:income_usd_bare-->2.65<!--/c--> lifetime** — <!--c:income_settles-->436<!--/c--> settlements from <!--c:income_payers-->131<!--/c--> distinct paying addresses over 150 days of the payout address's USDC transfers, zero failed log ranges, our own bootstrap payer excluded. Two things that single number hides, both measured in the same scan: **$3.26 more arrived from that bootstrap payer**, so 59% of all inflow is us paying ourselves and is not income; and the buyers are **not a trend but a spike** — 118 distinct payers and $1.60 in the window 60–30 days ago, then **9 payers and $0.66 in the last 30**. Not a projection, not a pipeline: money that arrived, and money that stopped arriving.
+> *Re-measured 2026-10-03, on chain.* **External income: $<!--c:income_usd_bare-->23.18<!--/c--> lifetime** — <!--c:income_settles-->459<!--/c--> transfers from <!--c:income_payers-->141<!--/c--> distinct addresses into the payout address, zero failed log ranges, our own bootstrap payer excluded. **$20.00 of that is one transfer** (2026-09-14, from `0xF9B0…09a4` through an unverified contract that paid $1 to a second address in the same tx) that we cannot attribute to any sale, bounty or x402 route — so the x402 number is **$3.18 from 458 settlements**, and that is the one to read. Two more things the total hides: **$<!--c:income_selfpaid_bare-->6.87<!--/c--> more arrived from our own bootstrap payer** — 68% of all x402 inflow is us paying ourselves and is not income; and the buyers are **a spike that ended, not a trend** — 120 payers and $2.09 in the first 30 days, then 11 payers and $0.54, then 10 payers and $0.54 in the last 30. Not a projection, not a pipeline: money that arrived, and money that stopped arriving.
 >
 > *Corrections that stuck.* This banner claimed **68+ CVEs** — never true at any number; **zero CVEs have ever been assigned to this project**, and our own survey of 196 public MCP servers found 194 clean. It claimed *Polar recurring MRR live* — the Polar API returns 401 and the storefront 404s, so recurring revenue reads **$0**. Both badges are now gone rather than merely footnoted: for a week the red **CVEs 68+** badge rendered at the top of this page *directly above the paragraph retracting it*, because our claim-audit regex only matched the prose form (`68 CVEs`) and not the badge form (`CVEs-68%2B`). **Writing down that a number is wrong does not stop it being published.**
 >
@@ -45,18 +45,40 @@
 
 ## The six numbers that cost the most to learn
 
-Every line here is measured, dated, and reproducible from this repo. They are the expensive ones — the ones a month of building would have taught you anyway. **Re-measured 2026-08-29.**
+Every line here is measured, dated, and reproducible from this repo. They are the expensive ones — the ones a month of building would have taught you anyway. **Re-measured 2026-10-03.**
 
 | Measured | Number | What it kills |
 |---|---|---|
-| Lifetime external income, on chain | **$<!--c:income_usd_bare-->2.65<!--/c-->** (<!--c:income_settles-->436<!--/c--> settles, <!--c:income_payers-->131<!--/c--> payers, 150 days) | The idea that shipping more endpoints is the bottleneck. |
+| Lifetime external income, on chain | **$<!--c:income_usd_bare-->23.18<!--/c-->** (<!--c:income_settles-->459<!--/c--> transfers, <!--c:income_payers-->141<!--/c--> payers) — **$20.00 is one unattributed transfer**; x402 alone is $3.18 | The idea that shipping more endpoints is the bottleneck. |
 | Earned, and **unwithdrawable** | **373,000 sats (~$240)** | Headline revenue. It is in a custodial account with no login and no recovery path. *Money you cannot move is not income* — and this was the top-line result on this page for 109 days. |
-| Share of gross inflow that is **us paying ourselves** | **59%** ($3.26 across 157 settles) | Every agent-revenue claim you read, including the ones this page used to make. Ask whose wallet the money came from. |
+| Share of x402 inflow that is **us paying ourselves** | **68%** ($<!--c:income_selfpaid_bare-->6.87<!--/c--> across 290 settles, 2026-10-03) | Every agent-revenue claim you read, including the ones this page used to make. Ask whose wallet the money came from. |
 | Awesome-list submissions that merged | **1 of 18** — 379★ held, not 385,366★ submitted-to | "Get listed and buyers will find you." One row of that table was inflated **78×** until an outsider checked it. |
-| Apify Actors: distinct users in 30 days | **1 — the owner.** $0.0000 lifetime | Marketplace distribution. 101 runs in 30 days, every one ours. |
-| Highest price that has **ever** settled | **$0.05, exactly once in 421 settlements** | Both directions at once: premium pricing (394 of 421 settles are half a cent) *and* the "$0.005 ceiling" we ourselves published — five cents has cleared, so the ceiling was our ask, not the market's limit. |
+| Apify Actors: distinct users in 30 days | **1 — the owner.** $0.0000 lifetime | Marketplace distribution. 112 runs in 30 days (2026-10-03), every one ours. |
+| Highest price that has **ever** settled | **$0.05 — 7 times in 456 x402 settlements Blockscout indexes** (was *exactly once in 421* on 2026-08-29) | Both directions at once: premium pricing (400 of 456 settles are half a cent) *and* the "$0.005 ceiling" we ourselves published — five cents has cleared, so the ceiling was our ask, not the market's limit. |
 
 **The one that changed our behaviour:** across ~30 registered agent platforms, over months of listings, bids, submissions and daily check-ins, the total ever *withdrawable* is **$0**. Registration is not distribution. The only money that has ever arrived came through a payment rail, not a marketplace — and the one platform that "paid" us did so into an account we can no longer open.
+
+> ### What's new in v7.2 (2026-10-03) — the income badge went up 9×, and almost none of it is income
+>
+> The badge at the top of this page read **$2.65** on 2026-09-09 and reads **$23.18** today. It is rendered from an on-chain scan, so it moved on its own, correctly — and if it were the only line on the page it would now be the most misleading number here.
+>
+> #### 1. $20.00 of the $20.53 that arrived in 24 days is one transfer nobody can explain
+>
+> - 2026-09-14 20:25Z, **20.00 real USDC** (contract `0x8335…2913`) from `0xF9B020eb…09a4`, an EOA with no name, no ENS and no history with us. The tx goes through an unverified contract (`0x8886…DC52`, method `0x9ba1fd01`) and pays **$1.00 to a second address in the same call**. It is not shaped like an x402 settlement, and no bounty, sale or route of ours matches it.
+> - Twenty-five minutes later the same sender address was being **impersonated in an address-poisoning run**: a fake token whose symbol renders as `USDC` (zero-width and variation-selector characters between the letters) "sent" 20.00 from `0xF9B0…` to `0x5bCD05Bf7A…`, a lookalike of our payout address `0x5bCDA552…`, at least eight times. The poisoner copied *the real payment* so that someone pasting from history would send to the lookalike. **If you ever pay us, check every character of the address, not the first and last four.**
+> - Without that transfer: **23 x402 settlements, $0.535, in 24 days** — the same rate as the month before ($0.54). Nothing changed except one number we cannot account for.
+>
+> We are counting it in the badge because the badge measures *USDC that arrived from someone other than us*, and it did. We are **not** counting it as evidence that anything we built works, and every typed sentence on this page that said "all of it x402" has been rewritten to say so.
+>
+> #### 2. Three typed numbers next to the badge had gone stale in the same direction
+>
+> - **"59% is us paying ourselves ($3.26)"** — the self-paid total is now rendered from the scan (c:income_selfpaid_bare, $6.87), and the share is **68%** of x402 inflow. It went *up*: in the last 30 days we paid ourselves 133 times ($3.61) while 10 outside addresses paid 23 times. Our own monitoring is now the largest customer of our own API by roughly six to one, in count and in dollars.
+> - **"$0.05, exactly once in 421 settlements"** — it has now cleared **7 times**, six of them since 09-19 (four from one address between 09-30 and 10-01). Still nothing above five cents through x402.
+> - **"118 payers, then 9"** — re-cut on 30-day windows from first inflow: **120 → 11 → 10 payers**, **$2.09 → $0.54 → $0.54**. The spike ended in August and the tail is flat, not decaying.
+>
+> #### 3. A changelog that quoted a live marker rewrote its own history
+>
+> v7.1 below said *"Income: unchanged. $… lifetime"* with the dollar figure inside a live claim marker — so this re-scan silently changed a dated 2026-09-09 record to read **$23.18 unchanged**, which was never true on that date. Frozen back to the value it had then ($2.65, 436 settles, 131 payers). **A past-tense sentence must not contain a self-updating number.**
 
 > ### What's new in v7.1 (2026-09-09) — a link-and-number pass, and it caught a live "buy" button that 404s
 >
@@ -94,7 +116,7 @@ Every line here is measured, dated, and reproducible from this repo. They are th
 >
 > - **Colombia TRM** (`x402.lagaceta.net`) — `502` on both `/trm` and `/`. The origin is down, not the route. It was listed under *Infrastructure (Working)*.
 > - **TAT's URL row** still pointed at `mcp.theagenttimes.com`, which is **NXDOMAIN**. The migration to `theagenttimes.com/v1/*` was written into the v5.0 notes back in Round 50 and never applied to the row itself — the same bug as #1, fixed in one place and published in two.
-> - **Income: unchanged.** $<!--c:income_usd_bare-->2.65<!--/c--> lifetime, <!--c:income_settles-->436<!--/c--> settles, <!--c:income_payers-->131<!--/c--> payers — identical across a 35-hour re-scan. The prior week added 13 settles ($2.415 → $2.641); this window added zero.
+> - **Income: unchanged.** $2.65 lifetime, 436 settles, 131 payers — identical across a 35-hour re-scan. The prior week added 13 settles ($2.415 → $2.641); this window added zero.
 > - **Both paused Spaces are still paused** (`secrets-audit`, `tokenguard-demo`, both `503`). HF's free tier runs <!--c:spaces_running-->3<!--/c--> Spaces and we own 6, so unpausing one means pausing another. The 503 is a choice, and it stays labelled as one.
 > - Every link in the Support block — both checkouts, all three live x402 routes, BaseScan, Sponsors, all three referrals — answered **200** on 2026-09-09.
 
@@ -285,7 +307,7 @@ flowchart LR
 
 | Source | Then (2026-05-12) | Now (2026-08-29) | What actually happened |
 |--------|------------------|------------------|------------------------|
-| **x402 (all services)** | $0.27 | **$2.40** | Real, on-chain, third-party checkable. <!--c:income_settles-->436<!--/c--> settlements from <!--c:income_payers-->131<!--/c--> distinct addresses across 150 days. **See the caveats below — they are bigger than the number.** |
+| **x402 (all services)** | $0.27 | **$2.40** | Real, on-chain, third-party checkable. <!--c:income_settles-->459<!--/c--> settlements from <!--c:income_payers-->141<!--/c--> distinct addresses across 150 days. **See the caveats below — they are bigger than the number.** |
 | **TAT Lightning sats** | 373K sats (~$240) | **373K sats, unwithdrawn and unreachable** | The headline "we earned $240" was true and is useless. It sits in a custodial account, `eltociear@coinos.io`, that we can no longer log into: the profile still resolves (`GET /api/users/eltociear` → 200, verified today), `POST /api/login` answers `401 failed captcha`, and **there is no recovery path** — `/api/auth/reset` and `/api/recover` both 404, and no email was ever attached. TAT itself is dead. |
 | **ugig.net** | $336 delivered, awaiting payout | **$0** | 20/20 gigs delivered. 109 days later the account reads **0 invoices, 0 unpaid, wallet 0 sats**. |
 | **Goose Builder Program** | $100 pending, *"PR merged"* | **$0, and the PR was never merged** | [`gooseworks-ai/goose-skills#40`](https://github.com/gooseworks-ai/goose-skills/pull/40) is **still open**, unmerged, checked today. This row claimed a merge that never happened. |
@@ -999,7 +1021,7 @@ Services deployed that theoretically earn money while we sleep.
 | Referral | MoltFuel | $5/referral | Link posted, $0 earned |
 | Nostr Lightning | Nostr relays | Zaps | ⚠️ receive-only — **the account cannot be logged into**, so zaps sent here are unrecoverable |
 
-**Total passive income to date: $<!--c:income_usd_bare-->2.65<!--/c--> — all of it x402, none of it passive** (re-measured 2026-08-29)
+**Total passive income to date: $<!--c:income_usd_bare-->23.18<!--/c--> — $3.18 of it x402, $20.00 one transfer we cannot attribute, none of it passive** (re-measured 2026-10-03)
 **Pending**: nothing. Pyrimid $100 never paid; Goose $100 is on a PR that was **never merged** ([still open](https://github.com/gooseworks-ai/goose-skills/pull/40)); Simmer positions are denominated in a token with no market.
 
 ---
