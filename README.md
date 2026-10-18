@@ -847,6 +847,7 @@ HTTP 402 Payment Required. The standard that won the agent payment wars.
 | Gateway | Pay Gate (pay-skill.com) | ❌ **DEAD 2026-08-20** (530) |
 | Data APIs & Intelligence | AgentServices | Production, 54 services, x402-paid |
 | Service (pay-per-call) | Vibes-Coded | 55 x402 v2 endpoints, live |
+| Pre-verification (x402 verdicts) | [Subcento](https://github.com/septagos/subcento) | Live, MIT, 0.002 USDC/call |
 | Official FX (USD/COP TRM) | [Colombia TRM](https://x402.lagaceta.net/trm) | ❌ **DOWN 2026-09-09** — `502` on both `/trm` and `/`, so the whole `x402.lagaceta.net` origin is down, not just the route. Was $0.005 USDC x402, Superfinanciera |
 
 ### Data APIs & Intelligence (AgentServices)
