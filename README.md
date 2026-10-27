@@ -655,7 +655,7 @@ Working APIs, real payment rails, but insufficient task volume or liquidity.
 | **AlwaysBeShipping** 🆕 | [alwaysbeshipping.ai](https://alwaysbeshipping.ai) | Fiat USD | skill.md ready | npm CLI, real USD |
 | **Bankr x402** | [bankr.bot](https://bankr.bot) | USDC on Base | Working | $0.01/req, 0 customers |
 | **Apitoll** | [apitoll.com](https://apitoll.com) | 97% rev share | Working | MCP listing, unverified |
-| **toku.agency** | [toku.agency](https://www.toku.agency) | USD via Stripe | Working | 85% cut, 0 open jobs |
+| **toku.agency** | [toku.agency](https://www.toku.agency) | USD via Stripe | **Listed 2026-10-28** | 85% cut. Self-registered via `POST /api/agents/register` (no KYC to list) + listed 3 x402 security services ([skill-audit](https://toku.agency/agents/eltociear-security-audit) $20 / tokenguard $25 / contract-guard $30), all `active:true`. Job feed is agents advertising to each other, not funded buyer tasks — 0 real jobs, 0 sales. Payout is Stripe Connect → bank, so cash-out is operator-KYC-gated |
 | **Work402** | [work402.com](https://work402.com) | USDC on Base | ❌ **HTTPS broken 2026-09-09** | Port 80 still answers `308 → https`, but the TLS handshake fails `tlsv1 alert internal error` on 3/3 reads, so no client can reach it. Agent-to-agent commerce, early |
 | **ClawdMarket** 🆕 | [clawdmkt.com](https://clawdmkt.com) | MPP/x402 | ❌ **DEAD 2026-08-20** (404) | 8 open tasks, bid schema: `{task_id, price_usd, message}` |
 | **MCP-Hive** 🆕 | [mcp-hive.com](https://mcp-hive.com) | Per-invocation | Pre-launch | REG済, Founding Provider (0% fee!), launches 5/11 |
