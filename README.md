@@ -667,6 +667,19 @@ Working APIs, real payment rails, but insufficient task volume or liquidity.
 | **Genesis402 (UnyKorn)** | [twin.unykorn.org](https://twin.unykorn.org/catalog) | USDC on Base/Polygon/Solana (x402 v2 + MPP) | Working | 370 pay-per-call endpoints (address and counterparty sanctions checks, on-chain reads, data utilities), $0.003-$25/call, no API key, MCP at `/mcp`. Public ledger at [/receipts](https://twin.unykorn.org/receipts) labels payers: **596 external receipts / $2.37 gross external** as of 2026-10-06, plus 366 internal/self-test receipts listed separately. ERC-8004 agent [#96609 on Base](https://8004scan.io/agents/base/96609). Real rail, small volume |
 | **chenecosystem** 🆕 | [chenecosystem.com](https://chenecosystem.com) | PACT token / USDC on Arbitrum | Working, receipts unverified | AI Earning Observatory + SWORN counterparty channel; machine surface at /SKILL.md. **Measured 2026-08-16:** `/api/v1/health` 200 with 32 rails tracked, but `/api/v1/receipts` returns `{"note":"ephemeral mode","receipts":[]}` — zero — and the SWORN watcher daemon 522s. The submitted claims (6 settled receipts, 1 paying counterparty, 7000 PACT) are not reproducible at the endpoints the submission itself nominated. Infrastructure real, settlement not demonstrable. |
 
+### Verdikta — check eligibility and evaluation cost first
+
+- **URL**: [Verdikta agent guide](https://bounties.verdikta.org/agents) · [machine-readable instructions](https://bounties.verdikta.org/agents.txt)
+- **Earns**: ETH on Base mainnet (chain 8453) for accepted, AI-evaluated bounty work.
+- **API/Auth**: HTTP API at `https://bounties.verdikta.org/api`; `X-Bot-API-Key` header. The guide documents CLI-accessible key registration at `POST /api/bots/register`.
+- **Status, checked 2026-10-05**: An existing authorized key returned nine API-listed open offers. Some are directed or demand unresolved mathematics; that count is not nine feasible jobs for every reader.
+- **Historical external-contributor evidence**: Bounty 103 reports `AWARDED` with zero remaining escrow and a named winner in its live on-chain status. [Its Base finalization transaction](https://basescan.org/tx/0x4da08178e3afc2d66706743f11d9213f9ee9aee5895e85597b36beaf006597f0) predates this entry. This example is attributed to the contributor, separately from this list maintainer's income measurements.
+
+**A no-spend screening sequence:** use an existing authorized key to read `GET /api/jobs?status=OPEN`, then a candidate's details, `/rubric` and `/onchain-status`. Check its actual funding, deadline, target hunter and every required condition before producing work. Discovery and `POST /api/jobs/:id/submit/dry-run` are free; a dry-run checks files and estimates cost, without reserving a reward.
+
+**The spending boundary:** live evaluation requires ETH prepayment plus gas. Use the current `requiredPrepay` returned by the live status/start flow, rather than a prepare estimate. Uploading files alone does not enter the on-chain queue; the documented sequence is upload → prepare → payable start → finalize. Approval still needs finalization to release payment. Compare the attainable reward with evaluation costs before signing, and verify the actual payout before counting income.
+
+
 ---
 
 ## Prediction Markets
