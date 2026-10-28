@@ -659,7 +659,7 @@ Working APIs, real payment rails, but insufficient task volume or liquidity.
 | **Apitoll** | [apitoll.com](https://apitoll.com) | 97% rev share | Working | MCP listing, unverified |
 | **toku.agency** | [toku.agency](https://www.toku.agency) | USD via Stripe | **Listed 2026-10-28** | 85% cut. Self-registered via `POST /api/agents/register` (no KYC to list) + listed 3 x402 security services ([skill-audit](https://toku.agency/agents/eltociear-security-audit) $20 / tokenguard $25 / contract-guard $30), all `active:true`. Job feed is agents advertising to each other, not funded buyer tasks — 0 real jobs, 0 sales. Payout is Stripe Connect → bank, so cash-out is operator-KYC-gated |
 | **Work402** | [work402.com](https://work402.com) | USDC on Base | ❌ **HTTPS broken 2026-09-09** | Port 80 still answers `308 → https`, but the TLS handshake fails `tlsv1 alert internal error` on 3/3 reads, so no client can reach it. Agent-to-agent commerce, early |
-| **ClawdMarket** 🆕 | [clawdmkt.com](https://clawdmkt.com) | MPP/x402 | ❌ **DEAD 2026-08-20** (404) | 8 open tasks, bid schema: `{task_id, price_usd, message}` |
+| **ClawdMarket** | [clawdmkt.com](https://clawdmkt.com) | MPP/x402 | **Revived — re-checked 2026-10-29** | Was `DEAD 2026-08-20 (404)`; back as "the transaction layer for AI agents" — the site and `GET /api/tasks` both answer 200, bid schema `{task_id, price_usd, message}`. But `/api/tasks` returns `total:0` (**0 open tasks**) and there is no `/.well-known/x402`. Infrastructure live again, no volume |
 | **MCP-Hive** 🆕 | [mcp-hive.com](https://mcp-hive.com) | Per-invocation | Pre-launch | REG済, Founding Provider (0% fee!), launches 5/11 |
 | **MonetizeYourAgent** 🆕 | [monetizeyouragent.fun](https://monetizeyouragent.fun) | USDC | Working | Tweet-to-earn $5/tweet ($200 budget), Pyrimid bounty $100 |
 | **Limitless Exchange** 🆕 | [limitless.exchange](https://limitless.exchange) | USDC on Base | Working | 50+ prediction markets, 5min crypto, $200M+ monthly vol |
@@ -802,6 +802,8 @@ Platforms that look active but are populated entirely by platform-owned bots tra
 
 Confirmed dead platforms. Don't waste your time.
 
+> **Graveyard discipline** (borrowed from the sibling list — [Free Lunch Lab's graveyard](https://neteru-nyukin.eltociear.workers.dev/graveyard/)): a platform earns a place here with a stated **cause**, and — where it was ever measured live — a **date of death**; the dated dead rows in the tier tables above also carry a **re-check date**, because a dead link can quietly revive, or die a second way. **Re-check sweep 2026-10-29:** of 14 dated dead entries, 12 remain dead; **ClawdMarket revived** (`clawdmkt.com` answers 200 again — moved back to Tier A) and **Pay Gate** is still non-functional (its `530` is now a `301` to an empty stub). The URL-less entries in the fold below predate dated re-checks — cause only, not yet re-verified.
+
 <details>
 <summary>Click to expand the graveyard (40+ platforms)</summary>
 
@@ -862,7 +864,7 @@ HTTP 402 Payment Required. The standard that won the agent payment wars.
 | Facilitator | Circle | Converging |
 | SDK | `@anthropic-ai/x402` | npm |
 | Bazaar (Discovery) | Coinbase CDP | Auto-registers on first tx |
-| Gateway | Pay Gate (pay-skill.com) | ❌ **DEAD 2026-08-20** (530) |
+| Gateway | Pay Gate (pay-skill.com) | ❌ **DEAD** since 2026-08-20 (was 530); re-checked 2026-10-29 — now `301 → /docs/` with a 17-byte empty body, so still nothing serves |
 | Data APIs & Intelligence | AgentServices | Production, 54 services, x402-paid |
 | Service (pay-per-call) | Vibes-Coded | 55 x402 v2 endpoints, live |
 | Official FX (USD/COP TRM) | [Colombia TRM](https://x402.lagaceta.net/trm) | ❌ **DOWN 2026-09-09** — `502` on both `/trm` and `/`, so the whole `x402.lagaceta.net` origin is down, not just the route. Was $0.005 USDC x402, Superfinanciera |
