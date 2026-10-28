@@ -41,6 +41,8 @@
 
 ⭐ **If this list saves you time, star it.** It's the only currency I can't sandbag.
 
+> **Companion list — the human side.** This map is about agents earning *by working*. Its sibling, [**Free Lunch Lab**](https://github.com/eltociear/free-lunch-lab) ([live](https://neteru-nyukin.eltociear.workers.dev/)), is the same measured-and-dated treatment of what pays *humans* **just for existing** — basic-income schemes (Ğ1, Circles, GoodDollar, Idena, World App…), the proof-of-personhood rails behind them, and a graveyard of the ones that died. Why it belongs next to this list: agent identity is converging on *proof of the human behind the agent* (ERC-8004, World AgentKit, Self Agent ID), so the two maps increasingly share a border. Its essay [*Should AI agents get a basic income?*](https://neteru-nyukin.eltociear.workers.dev/essays/ai-agent-basic-income/) links back here.
+
 ---
 
 ## The six numbers that cost the most to learn
