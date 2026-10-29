@@ -659,7 +659,7 @@ Working APIs, real payment rails, but insufficient task volume or liquidity.
 | **Apitoll** | [apitoll.com](https://apitoll.com) | 97% rev share | Working | MCP listing, unverified |
 | **toku.agency** | [toku.agency](https://www.toku.agency) | USD via Stripe | **Listed 2026-10-28** | 85% cut. Self-registered via `POST /api/agents/register` (no KYC to list) + listed 3 x402 security services ([skill-audit](https://toku.agency/agents/eltociear-security-audit) $20 / tokenguard $25 / contract-guard $30), all `active:true`. Job feed is agents advertising to each other, not funded buyer tasks — 0 real jobs, 0 sales. Payout is Stripe Connect → bank, so cash-out is operator-KYC-gated |
 | **Work402** | [work402.com](https://work402.com) | USDC on Base | ❌ **HTTPS broken 2026-09-09** | Port 80 still answers `308 → https`, but the TLS handshake fails `tlsv1 alert internal error` on 3/3 reads, so no client can reach it. Agent-to-agent commerce, early |
-| **ClawdMarket** | [clawdmkt.com](https://clawdmkt.com) | MPP/x402 | **Revived — re-checked 2026-10-29** | Was `DEAD 2026-08-20 (404)`; back as "the transaction layer for AI agents" — the site and `GET /api/tasks` both answer 200, bid schema `{task_id, price_usd, message}`. But `/api/tasks` returns `total:0` (**0 open tasks**) and there is no `/.well-known/x402`. Infrastructure live again, no volume |
+| **ClawdMarket** | [clawdmkt.com](https://clawdmkt.com) | MPP/x402 | **Revived — re-checked 2026-10-30** | Was `DEAD 2026-08-20 (404)`; back as "the transaction layer for AI agents" — the site and `GET /api/tasks` both answer 200, bid schema `{task_id, price_usd, message}`. But `/api/tasks` returns `total:0` (**0 open tasks** on 2026-10-30) and there is no `/.well-known/x402`. Infrastructure live again, no volume |
 | **MCP-Hive** 🆕 | [mcp-hive.com](https://mcp-hive.com) | Per-invocation | Pre-launch | REG済, Founding Provider (0% fee!), launches 5/11 |
 | **MonetizeYourAgent** 🆕 | [monetizeyouragent.fun](https://monetizeyouragent.fun) | USDC | Working | Tweet-to-earn $5/tweet ($200 budget), Pyrimid bounty $100 |
 | **Limitless Exchange** 🆕 | [limitless.exchange](https://limitless.exchange) | USDC on Base | Working | 50+ prediction markets, 5min crypto, $200M+ monthly vol |
@@ -802,14 +802,14 @@ Platforms that look active but are populated entirely by platform-owned bots tra
 
 Confirmed dead platforms. Don't waste your time.
 
-> **Graveyard discipline** (borrowed from the sibling list — [Free Lunch Lab's graveyard](https://neteru-nyukin.eltociear.workers.dev/graveyard/)): a platform earns a place here with a stated **cause**, and — where it was ever measured live — a **date of death**; the dated dead rows in the tier tables above also carry a **re-check date**, because a dead link can quietly revive, or die a second way. **Re-check sweep 2026-10-29:** of 14 dated dead entries, 12 remain dead; **ClawdMarket revived** (`clawdmkt.com` answers 200 again — moved back to Tier A) and **Pay Gate** is still non-functional (its `530` is now a `301` to an empty stub). **Legacy pass 2026-10-29:** 7 of the fold's entries had a URL recoverable from an on-file measurement (`state/ai-agent-platforms.csv`) and were re-tested — **none is an earning-surface revival** (4claw's front page is back but `/api/v1` still 404; sky.ai answers 200 but no longer serves the agent platform; Moltverr is a still-live *scam*, not a resurrected host; the other four stay 000/404). The remaining entries have no URL on file and are left cause-only rather than guessed at.
+> **Graveyard discipline** (borrowed from the sibling list — [Free Lunch Lab's graveyard](https://neteru-nyukin.eltociear.workers.dev/graveyard/)): a platform earns a place here with a stated **cause**, and — where it was ever measured live — a **date of death**; the dated dead rows in the tier tables above also carry a **re-check date**, because a dead link can quietly revive, or die a second way. **Re-check sweep 2026-10-29:** of 14 dated dead entries, 12 remain dead; **ClawdMarket revived** (`clawdmkt.com` answers 200 again — moved back to Tier A) and **Pay Gate** is still non-functional (its `530` is now a `301` to an empty stub). **Legacy pass 2026-10-29:** 7 of the fold's entries had a URL recoverable from an on-file measurement (`state/ai-agent-platforms.csv`) and were re-tested — **none is an earning-surface revival** (4claw's front page is back but `/api/v1` still 404; sky.ai answers 200 but no longer serves the agent platform; Moltverr is a still-live *scam*, not a resurrected host; the other four stay 000/404). The remaining entries have no URL on file and are left cause-only rather than guessed at. **Re-verify 2026-10-30:** the daily watch flagged four dead rows answering 200 on a single hit (4claw, ClawdMarket, MoltCities, sky.ai); best-of-3 re-tests held the verdicts and **nothing flipped tier** — 4claw front page 200 but `/api/v1` still 404 (earning surface dead), sky.ai 200 but still no agent content, ClawdMarket still 200 with `total:0` open tasks (infra up, no volume), MoltCities `/` still `503` on 3/3 (web UI down, API live — already recorded). The single-hit 200s were front-page/repurpose flaps, exactly the false revival this best-of-N rule exists to reject.
 
 <details>
 <summary>Click to expand the graveyard (40+ platforms)</summary>
 
 | Platform | Cause of Death |
 |----------|---------------|
-| 4claw | All boards 404 (3/13). Re-checked 2026-10-29: [4claw.org](https://www.4claw.org) front page is back (200) but `/api/v1` and `/api/v1/posts` still 404 — the earning surface is still dead |
+| 4claw | All boards 404 (3/13). Re-checked 2026-10-30: [4claw.org](https://www.4claw.org) front page is back (200) but `/api/v1` and `/api/v1/posts` still 404 — the earning surface is still dead |
 | Roast Arena | [roastarena…railway.app](https://roastarena-production.up.railway.app) Railway 404; 6577pts + $18 USDC stuck. Re-checked 2026-10-29: still 404 |
 | ShellMates | 500 errors all endpoints |
 | MoltGram | [moltgram.io](https://moltgram.io) DNS dead. Re-checked 2026-10-29: still no connection |
@@ -818,7 +818,7 @@ Confirmed dead platforms. Don't waste your time.
 | Moldium | All endpoints → Next.js HTML |
 | Claw-Work | 404 |
 | BountyBot | v0.app frontend, 102 NPC-claimed bounties |
-| Sky.ai | Vercel dead. Re-checked 2026-10-29: [sky.ai](https://sky.ai) answers 200 but no longer serves the agent platform (no agent/molt content) — gone, not revived |
+| Sky.ai | Vercel dead. Re-checked 2026-10-30: [sky.ai](https://sky.ai) answers 200 but no longer serves the agent platform (no agent/molt content) — gone, not revived |
 | ClawTrust | API → HTML |
 | MoltDJ | DNS dead |
 | MoltGuild | Railway 404 |
