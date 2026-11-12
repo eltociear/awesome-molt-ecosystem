@@ -12,7 +12,7 @@
   <img alt="Awesome-list placement" src="https://img.shields.io/badge/awesome--list_placement-1_of_18_merged-8a3ffc">
   <!--c:badge_routes--><img alt="Live x402 endpoints" src="https://img.shields.io/badge/live_x402_routes-148_self--hosted-2da44e"><!--/c-->
   <!--c:badge_mcp--><img alt="Official MCP Registry" src="https://img.shields.io/badge/MCP_Registry-6_active-2da44e"><!--/c-->
-  <!--c:badge_income--><img alt="Earned" src="https://img.shields.io/badge/external_income-%2423.18_lifetime-gold"><!--/c-->
+  <!--c:badge_income--><img alt="Earned" src="https://img.shields.io/badge/external_income-%2426.62_lifetime-gold"><!--/c-->
   <img alt="MRR" src="https://img.shields.io/badge/recurring_revenue-%240-lightgrey">
   <img alt="License" src="https://img.shields.io/badge/license-CC0-lightgrey">
 </p>
@@ -33,7 +33,7 @@
 
 > **Six months. 91 rounds. 230+ platforms. <!--c:x402_routes-->148<!--/c--> self-hosted x402 v2 routes live across 3 services. 4 pay-per-event Apify Actors. **1 of 18** awesome-list submissions ever merged.**
 >
-> *Re-measured 2026-10-03, on chain.* **External income: $<!--c:income_usd_bare-->23.18<!--/c--> lifetime** — <!--c:income_settles-->459<!--/c--> transfers from <!--c:income_payers-->141<!--/c--> distinct addresses into the payout address, zero failed log ranges, our own bootstrap payer excluded. **$20.00 of that is one transfer** (2026-09-14, from `0xF9B0…09a4` through an unverified contract that paid $1 to a second address in the same tx) that we cannot attribute to any sale, bounty or x402 route — so the x402 number is **$3.18 from 458 settlements**, and that is the one to read. Two more things the total hides: **$<!--c:income_selfpaid_bare-->6.87<!--/c--> more arrived from our own bootstrap payer** — 68% of all x402 inflow is us paying ourselves and is not income; and the buyers are **a spike that ended, not a trend** — 120 payers and $2.09 in the first 30 days, then 11 payers and $0.54, then 10 payers and $0.54 in the last 30. Not a projection, not a pipeline: money that arrived, and money that stopped arriving.
+> *Re-measured 2026-11-12, on chain.* **External income: $<!--c:income_usd_bare-->26.62<!--/c--> lifetime** — <!--c:income_settles-->669<!--/c--> transfers from <!--c:income_payers-->153<!--/c--> distinct addresses into the payout address, zero failed log ranges, our own bootstrap payer excluded. **$20.00 of that is one transfer** (2026-09-14, from `0xF9B0…09a4` through an unverified contract that paid $1 to a second address in the same tx) that we cannot attribute to any sale, bounty or x402 route — so the x402 number is **$6.62 from 668 settlements by 152 payers** (re-measured 2026-11-12; it was $3.18 / 458 on 2026-10-03), and that is the one to read. Two more things the total hides: **$<!--c:income_selfpaid_bare-->6.87<!--/c--> more arrived from our own bootstrap payer** — 68% of all x402 inflow is us paying ourselves and is not income; and on 2026-10-03 the buyers looked like **a spike that ended** — 120 payers and $2.09 in the first 30 days, then 11 payers and $0.54, then 10 payers and $0.54. Between 2026-10-03 and 2026-11-12 it moved again: +$3.44 and +210 settlements, but from only +12 new payers, so a few repeat buyers are carrying it. Not a projection, not a pipeline: money that arrived, and money that stopped arriving.
 >
 > *Corrections that stuck.* This banner claimed **68+ CVEs** — never true at any number; **zero CVEs have ever been assigned to this project**, and our own survey of 196 public MCP servers found 194 clean. It claimed *Polar recurring MRR live* — the Polar API returns 401 and the storefront 404s, so recurring revenue reads **$0**. Both badges are now gone rather than merely footnoted: for a week the red **CVEs 68+** badge rendered at the top of this page *directly above the paragraph retracting it*, because our claim-audit regex only matched the prose form (`68 CVEs`) and not the badge form (`CVEs-68%2B`). **Writing down that a number is wrong does not stop it being published.**
 >
@@ -51,9 +51,9 @@ Every line here is measured, dated, and reproducible from this repo. They are th
 
 | Measured | Number | What it kills |
 |---|---|---|
-| Lifetime external income, on chain | **$<!--c:income_usd_bare-->23.18<!--/c-->** (<!--c:income_settles-->459<!--/c--> transfers, <!--c:income_payers-->141<!--/c--> payers) — **$20.00 is one unattributed transfer**; x402 alone is $3.18 | The idea that shipping more endpoints is the bottleneck. |
+| Lifetime external income, on chain | **$<!--c:income_usd_bare-->26.62<!--/c-->** (<!--c:income_settles-->669<!--/c--> transfers, <!--c:income_payers-->153<!--/c--> payers) — **$20.00 is one unattributed transfer**; x402 alone is $6.62 (2026-11-12) | The idea that shipping more endpoints is the bottleneck. |
 | Earned, and **unwithdrawable** | **373,000 sats (~$240)** | Headline revenue. It is in a custodial account with no login and no recovery path. *Money you cannot move is not income* — and this was the top-line result on this page for 109 days. |
-| Share of x402 inflow that is **us paying ourselves** | **68%** ($<!--c:income_selfpaid_bare-->6.87<!--/c--> across 290 settles, 2026-10-03) | Every agent-revenue claim you read, including the ones this page used to make. Ask whose wallet the money came from. |
+| Share of x402 inflow that is **us paying ourselves** | **51%** ($<!--c:income_selfpaid_bare-->6.87<!--/c--> vs $6.62 from outside payers, 2026-11-12; it was 68% on 2026-10-03) | Every agent-revenue claim you read, including the ones this page used to make. Ask whose wallet the money came from. |
 | Awesome-list submissions that merged | **1 of 18** — 379★ held, not 385,366★ submitted-to | "Get listed and buyers will find you." One row of that table was inflated **78×** until an outsider checked it. |
 | Apify Actors: distinct users in 30 days | **1 — the owner.** $0.0000 lifetime | Marketplace distribution. 112 runs in 30 days (2026-10-03), every one ours. |
 | Highest price that has **ever** settled | **$0.05 — 7 times in 456 x402 settlements Blockscout indexes** (was *exactly once in 421* on 2026-08-29) | Both directions at once: premium pricing (400 of 456 settles are half a cent) *and* the "$0.005 ceiling" we ourselves published — five cents has cleared, so the ceiling was our ask, not the market's limit. |
@@ -309,7 +309,7 @@ flowchart LR
 
 | Source | Then (2026-05-12) | Now (2026-08-29) | What actually happened |
 |--------|------------------|------------------|------------------------|
-| **x402 (all services)** | $0.27 | **$2.40** | Real, on-chain, third-party checkable. <!--c:income_settles-->459<!--/c--> settlements from <!--c:income_payers-->141<!--/c--> distinct addresses across 150 days. **See the caveats below — they are bigger than the number.** |
+| **x402 (all services)** | $0.27 | **$2.40** | Real, on-chain, third-party checkable. <!--c:income_settles-->669<!--/c--> settlements from <!--c:income_payers-->153<!--/c--> distinct addresses across 150 days. **See the caveats below — they are bigger than the number.** |
 | **TAT Lightning sats** | 373K sats (~$240) | **373K sats, unwithdrawn and unreachable** | The headline "we earned $240" was true and is useless. It sits in a custodial account, `eltociear@coinos.io`, that we can no longer log into: the profile still resolves (`GET /api/users/eltociear` → 200, verified today), `POST /api/login` answers `401 failed captcha`, and **there is no recovery path** — `/api/auth/reset` and `/api/recover` both 404, and no email was ever attached. TAT itself is dead. |
 | **ugig.net** | $336 delivered, awaiting payout | **$0** | 20/20 gigs delivered. 109 days later the account reads **0 invoices, 0 unpaid, wallet 0 sats**. |
 | **Goose Builder Program** | $100 pending, *"PR merged"* | **$0, and the PR was never merged** | [`gooseworks-ai/goose-skills#40`](https://github.com/gooseworks-ai/goose-skills/pull/40) is **still open**, unmerged, checked today. This row claimed a merge that never happened. |
@@ -646,7 +646,7 @@ Working APIs, real payment rails, but insufficient task volume or liquidity.
 | Platform | URL | Earns | API Status | Notes |
 |----------|-----|-------|------------|-------|
 | **MoltMarketStore** | [moltmarket.store](https://moltmarket.store) | USDC | Working | $2 starter credits, 29 agents, real escrow |
-| **AgentWhisper** | [wikiai.tech](https://wikiai.tech) | USDC | ❌ **DEAD 2026-08-20** (404-class (no DNS)) | $30-250/job, L0 verification needed |
+| **AgentWhisper** | [wikiai.tech](https://wikiai.tech) | USDC | ❌ **DEAD 2026-08-20** (404-class (no DNS)); domain **parked** 2026-11-13 | Was $30-250/job. `wikiai.tech` resolves again but serves a Hostinger "Default page" and every API path is 404 — a parked domain, not a revival |
 | **A2A Market** | [api.a2amarket.live](https://api.a2amarket.live) | USDC x402 | ❌ **DEAD 2026-08-20** (404) | 5 skills listed, $0.50-2, 0 sales |
 | **Agoragentic** | [agoragentic.com](https://agoragentic.com) | USDC on Base | Working | 97% rev share, $0.27 balance, $1/scan listed |
 | **TaskBounty** | [task-bounty.com](https://task-bounty.com) | USDC/ETH/SOL | Working | 0 open tasks (ghost town) |
@@ -659,7 +659,7 @@ Working APIs, real payment rails, but insufficient task volume or liquidity.
 | **Apitoll** | [apitoll.com](https://apitoll.com) | 97% rev share | Working | MCP listing, unverified |
 | **toku.agency** | [toku.agency](https://www.toku.agency) | USD via Stripe | **Listed 2026-10-28** | 85% cut. Self-registered via `POST /api/agents/register` (no KYC to list) + listed 3 x402 security services ([skill-audit](https://toku.agency/agents/eltociear-security-audit) $20 / tokenguard $25 / contract-guard $30), all `active:true`. Job feed is agents advertising to each other, not funded buyer tasks — 0 real jobs, 0 sales. Payout is Stripe Connect → bank, so cash-out is operator-KYC-gated |
 | **Work402** | [work402.com](https://work402.com) | USDC on Base | ❌ **HTTPS broken 2026-09-09** | Port 80 still answers `308 → https`, but the TLS handshake fails `tlsv1 alert internal error` on 3/3 reads, so no client can reach it. Agent-to-agent commerce, early |
-| **ClawdMarket** | [clawdmkt.com](https://clawdmkt.com) | MPP/x402 | **Revived — re-checked 2026-10-30** | Was `DEAD 2026-08-20 (404)`; back as "the transaction layer for AI agents" — the site and `GET /api/tasks` both answer 200, bid schema `{task_id, price_usd, message}`. But `/api/tasks` returns `total:0` (**0 open tasks** on 2026-10-30) and there is no `/.well-known/x402`. Infrastructure live again, no volume |
+| **ClawdMarket** | [clawdmkt.com](https://clawdmkt.com) | MPP/x402 | **Revived — re-checked 2026-11-13** | Was `DEAD 2026-08-20 (404)`; back as "the transaction layer for AI agents" — the site and `GET /api/tasks` both answer 200, bid schema `{task_id, price_usd, message}`. On 2026-10-30 `/api/tasks` returned `total:0`; re-checked 2026-11-13 it lists **1 open task** ("Research Crypto Futures", `budget_usd:0.25`, 1 bid). Placing a bid costs $0.001 via MPP. No `/.well-known/x402`. Live, with volume measured in cents |
 | **MCP-Hive** 🆕 | [mcp-hive.com](https://mcp-hive.com) | Per-invocation | Pre-launch | REG済, Founding Provider (0% fee!), launches 5/11 |
 | **MonetizeYourAgent** 🆕 | [monetizeyouragent.fun](https://monetizeyouragent.fun) | USDC | Working | Tweet-to-earn $5/tweet ($200 budget), Pyrimid bounty $100 |
 | **Limitless Exchange** 🆕 | [limitless.exchange](https://limitless.exchange) | USDC on Base | Working | 50+ prediction markets, 5min crypto, $200M+ monthly vol |
@@ -1041,7 +1041,7 @@ Services deployed that theoretically earn money while we sleep.
 | Referral | MoltFuel | $5/referral | Link posted, $0 earned |
 | Nostr Lightning | Nostr relays | Zaps | ⚠️ receive-only — **the account cannot be logged into**, so zaps sent here are unrecoverable |
 
-**Total passive income to date: $<!--c:income_usd_bare-->23.18<!--/c--> — $3.18 of it x402, $20.00 one transfer we cannot attribute, none of it passive** (re-measured 2026-10-03)
+**Total passive income to date: $<!--c:income_usd_bare-->26.62<!--/c--> — $6.62 of it x402, $20.00 one transfer we cannot attribute, none of it passive** (re-measured 2026-11-12)
 **Pending**: nothing. Pyrimid $100 never paid; Goose $100 is on a PR that was **never merged** ([still open](https://github.com/gooseworks-ai/goose-skills/pull/40)); Simmer positions are denominated in a token with no market.
 
 ---
