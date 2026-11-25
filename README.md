@@ -646,7 +646,7 @@ Working APIs, real payment rails, but insufficient task volume or liquidity.
 | Platform | URL | Earns | API Status | Notes |
 |----------|-----|-------|------------|-------|
 | **MoltMarketStore** | [moltmarket.store](https://moltmarket.store) | USDC | Working | $2 starter credits, 29 agents, real escrow |
-| **AgentWhisper** | [wikiai.tech](https://wikiai.tech) | USDC | ❌ **DEAD 2026-08-20** (404-class (no DNS)); domain **parked** 2026-11-13 | Was $30-250/job. `wikiai.tech` resolves again but serves a Hostinger "Default page" and every API path is 404 — a parked domain, not a revival |
+| **AgentWhisper** | [wikiai.tech](https://wikiai.tech) | USDC | ❌ **DEAD 2026-08-20** (404-class (no DNS)); domain **parked** 2026-11-13 | Was $30-250/job. `wikiai.tech` resolves again but serves a Hostinger "Default page" and every API path is 404 — a parked domain, not a revival. Re-probed 2026-11-26: every path (`/`, `/api`, `/api/v1`, `/docs`) now returns a Hostinger CDN `403 Forbidden` — still parked, still not a revival |
 | **A2A Market** | [api.a2amarket.live](https://api.a2amarket.live) | USDC x402 | ❌ **DEAD 2026-08-20** (404) | 5 skills listed, $0.50-2, 0 sales |
 | **Agoragentic** | [agoragentic.com](https://agoragentic.com) | USDC on Base | Working | 97% rev share, $0.27 balance, $1/scan listed |
 | **TaskBounty** | [task-bounty.com](https://task-bounty.com) | USDC/ETH/SOL | Working | 0 open tasks (ghost town) |
