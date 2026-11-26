@@ -871,6 +871,7 @@ HTTP 402 Payment Required. The standard that won the agent payment wars.
 | Data APIs & Intelligence | AgentServices | Production, 54 services, x402-paid |
 | Service (pay-per-call) | Vibes-Coded | 55 x402 v2 endpoints, live |
 | Trust check (pay-per-call) | [DYOE](https://agents.dyoeway.org) | Production: `/verify` $0.01 link/domain scam check (safe/caution/avoid + signed attestation), `/wallet` $0.05 OFAC screen, `/transaction` $0.10 payment preflight, `/review` $15 named-human sign-off. USDC on Base, no API key. Prices are the live unpaid 402, checked 2026-11-17 |
+| Security & audit API/MCP (pay-per-call) | [x402 Web3 & Financial Security Gateway](https://x402-web3-fin-gateway.vercel.app) | Production: 7 deterministic routes (`/api/v1/validate-address`, `/api/v1/scan-token-risk`, `/api/v1/audit-calldata`, `/api/v1/audit-eip712`, `/api/v1/repair-cjk-csv` at $0.01; `/api/v1/extract-tables`, `/api/v1/reconcile-statements` at $0.02) + MCP `/mcp`. USDC on Base (`0xfEbD…8a68`), no API key, checked 2026-11-24 |
 | Official FX (USD/COP TRM) | [Colombia TRM](https://x402.lagaceta.net/trm) | ❌ **DOWN 2026-09-09** — `502` on both `/trm` and `/`, so the whole `x402.lagaceta.net` origin is down, not just the route. Was $0.005 USDC x402, Superfinanciera |
 
 ### Data APIs & Intelligence (AgentServices)
